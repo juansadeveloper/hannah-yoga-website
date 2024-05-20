@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 //COMPONENTS
-import Navbar from '../components/Navbar'
+import FooterSection from '../components/FooterSection'
 
 //IMAGES
 import background from "../../public/section-background.jpg"
@@ -13,8 +13,8 @@ import two from "../../public/sound-healing/two.jpeg"
 import three from "../../public/sound-healing/tree.jpeg"
 import four from "../../public/sound-healing/four.jpeg"
 import five from "../../public/sound-healing/five.jpeg"
-import SoundHealingOne from '../components/SoundHealingOne'
-import FooterSection from '../components/FooterSection'
+
+
 
 
 
@@ -123,7 +123,7 @@ function SoundHealing() {
             
             <FooterSection />
         </div>
-        {/* <SoundHealingOne /> */}
+        
         
     </main>
   )
