@@ -69,13 +69,13 @@ function About() {
                 {toggleOne ? <IoIosArrowUp size={20} className='text-accent'/> : <IoIosArrowDown size={20} className='text-accent'/>}
             </div>
 
-            <p className={toggleOne ? "text-justify" : "text-justify hidden"}>Hannah's journey with yoga began over 15 years ago, and she has since trained with some of the  most respected teachers in the field. She is a certified yoga instructor with advanced training in various styles,   including Hatha, Vinyasa, and Restorative Yoga. Her extensive training ensures that she brings a wealth of knowledge and  expertise to her classes.</p>
+            <p className={toggleOne ? "text-justify" : "text-justify hidden"}>Hannah&apos;s journey with yoga began over 15 years ago, and she has since trained with some of the  most respected teachers in the field. She is a certified yoga instructor with advanced training in various styles,   including Hatha, Vinyasa, and Restorative Yoga. Her extensive training ensures that she brings a wealth of knowledge and  expertise to her classes.</p>
             <div className='flex gap-3 items-center  cursor-pointer' onClick={switchToggleTwo}>
                 <h3 className='text-accent font-medium text-xl'>Teaching Style</h3>
                 {toggleTwo ? <IoIosArrowUp size={20} className='text-accent'/> : <IoIosArrowDown size={20} className='text-accent'/>}
             </div>
 
-            <p className={toggleTwo ? "text-justify" : "text-justify hidden"}>Hannah's teaching style is warm, inclusive, and adaptable. She excels at creating a welcoming   environment where students feel supported and encouraged. Her classes are thoughtfully designed to meet the needs of each     individual, whether they are new to yoga or experienced practitioners. Hannah emphasizes alignment, breath awareness, and   mindful movement, ensuring that her students practice safely and effectively.</p>
+            <p className={toggleTwo ? "text-justify" : "text-justify hidden"}>Hannah&apos;s teaching style is warm, inclusive, and adaptable. She excels at creating a welcoming   environment where students feel supported and encouraged. Her classes are thoughtfully designed to meet the needs of each     individual, whether they are new to yoga or experienced practitioners. Hannah emphasizes alignment, breath awareness, and   mindful movement, ensuring that her students practice safely and effectively.</p>
             <div className='flex gap-3 items-center  cursor-pointer' onClick={switchToggleThree}>
                 <h3 className='text-accent font-medium text-xl'>Personal Philosophy</h3>
                 {toggleThree ? <IoIosArrowUp size={20} className='text-accent'/> : <IoIosArrowDown size={20} className='text-accent'/>}

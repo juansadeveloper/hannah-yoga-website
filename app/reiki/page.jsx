@@ -81,14 +81,14 @@ function Page() {
       
         <div className='flex flex-col justify-center items-center h-screen w-full max-w-[800px] mt-[2400px]  md:mt-[1650px] text-center'>
             <h1 className='text-[#623810]/85 text-2xl md:text-5xl font-bold z-10'>What is Reiki?</h1>
-            <p className='text-[#623810]/85  font-base text-justify md:text-xl md:text-center my-20'>Reiki is a Japanese healing technique that involves the transfer of universal energy through the practitioner's palms to the recipient. It's based on the idea that an unseen "life force energy" flows through us and is what causes us to be alive. If one's "life force energy" is low, then we are more likely to get sick or feel stress, and if it's high, we are more capable of being happy and healthy.</p>
+            <p className='text-[#623810]/85  font-base text-justify md:text-xl md:text-center my-20'>Reiki is a Japanese healing technique that involves the transfer of universal energy through the practitioner&apos;s palms to the recipient. It&apos;s based on the idea that an unseen &quot;life force energy&quot; flows through us and is what causes us to be alive. If one&apos;s &quot;life force energy&quot; is low, then we are more likely to get sick or feel stress, and if it&apos;s high, we are more capable of being happy and healthy.</p>
             <div className='flex max-md:flex-col gap-5'>
                 <Image src={one} alt='' className='md:w-[500px] md:h-[500px] w-full h-[350px] object-cover'></Image>
                 <Image src={two} alt='' className='md:w-[500px] md:h-[500px] w-full h-[350px]] object-cover'></Image>
             </div>
 
             <h1 className='text-[#623810]/85 text-2xl md:text-5xl font-bold z-10 mb-20 mt-[250px]'>What happen in a Reiki session?</h1>
-            <p className='text-[#623810]/85  font-base text-justify md:text-xl md:text-center'>During a Reiki session, the practitioner places their hands lightly on or just above the recipient&apos;s body, allowing the energy to flow where it is needed most. This gentle touch promotes relaxation, reduces stress, and supports the body's natural healing processes.</p>
+            <p className='text-[#623810]/85  font-base text-justify md:text-xl md:text-center'>During a Reiki session, the practitioner places their hands lightly on or just above the recipient&apos;s body, allowing the energy to flow where it is needed most. This gentle touch promotes relaxation, reduces stress, and supports the body&apos;s natural healing processes.</p>
 
             <h1 className='text-[#623810]/85 text-2xl md:text-5xl font-bold z-10 mb-20 mt-[250px]'>Which benefits do I get through this practice?</h1>
             <p className='text-[#623810]/85 text-justify md:text-xl md:text-center font-base  mb-20'>The benefits of incorporating sound healing into yoga practice are numerous:</p>
