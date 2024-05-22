@@ -9,7 +9,7 @@ function Why() {
             <div className='flex justify-center items-center gap-10 mb-20'>
                 <div className='p-5 border rounded-full mt-20 w-full max-w-[300px min-h-[300px] flex flex-col items-center justify-start pt-20 bg-background/20'>
                     <h3 className='mb-7 text-accent font-medium text-xl'>Expert Guidance</h3>
-                    <p className='text-center text-base font-light'>Benefit from Hannah's extensive training and years of teaching experience.</p>
+                    <p className='text-center text-base font-light'>Benefit from Hannah&apos;s extensive training and years of teaching experience.</p>
                 </div>
                 <div className='p-5 border rounded-full mt-20  w-full max-w-[300px min-h-[300px] flex flex-col items-center justify-start pt-20 bg-background/40'>
                     <h3 className='mb-7 text-accent font-medium text-xl'>Personalized Attention</h3>

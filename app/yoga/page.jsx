@@ -111,7 +111,7 @@ function Page() {
             <div className='flex flex-col justify-center items-center mb-[200px] w-full'>
                 <div className='bg-white/80 border py-7 px-5 md:p-20 rounded'>
                     <h1 className='text-[#623810]/85 text-2xl md:text-5xl font-bold z-10  md:leading-[50px] text-center'>YOGA<span className='italic font-light'>with Hannah</span></h1>
-                    <p className='text-[#623810]/85  font-base text-justify md:text-xl md:text-center my-20'>Discover the transformative power of yoga with personalized guidance from Hannah. Whether you're a beginner looking to start your yoga journey or an experienced practitioner aiming to deepen your practice, Hannah offers both private and group sessions tailored to meet your individual needs.</p>
+                    <p className='text-[#623810]/85  font-base text-justify md:text-xl md:text-center my-20'>Discover the transformative power of yoga with personalized guidance from Hannah. Whether you&apos;re a beginner looking to start your yoga journey or an experienced practitioner aiming to deepen your practice, Hannah offers both private and group sessions tailored to meet your individual needs.</p>
                 </div>
                 <div className='flex items-center mt-[100px] justify-between w-full gap-20'>
                     <Image src={yogaOne} alt='' className='rounded-full w-[400px] h-[400px] object-cover'/>

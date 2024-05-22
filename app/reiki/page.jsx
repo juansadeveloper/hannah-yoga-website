@@ -88,7 +88,7 @@ function Page() {
             </div>
 
             <h1 className='text-[#623810]/85 text-2xl md:text-5xl font-bold z-10 mb-20 mt-[250px]'>What happen in a Reiki session?</h1>
-            <p className='text-[#623810]/85  font-base text-justify md:text-xl md:text-center'>During a Reiki session, the practitioner places their hands lightly on or just above the recipient's body, allowing the energy to flow where it is needed most. This gentle touch promotes relaxation, reduces stress, and supports the body's natural healing processes.</p>
+            <p className='text-[#623810]/85  font-base text-justify md:text-xl md:text-center'>During a Reiki session, the practitioner places their hands lightly on or just above the recipient&apos;s body, allowing the energy to flow where it is needed most. This gentle touch promotes relaxation, reduces stress, and supports the body's natural healing processes.</p>
 
             <h1 className='text-[#623810]/85 text-2xl md:text-5xl font-bold z-10 mb-20 mt-[250px]'>Which benefits do I get through this practice?</h1>
             <p className='text-[#623810]/85 text-justify md:text-xl md:text-center font-base  mb-20'>The benefits of incorporating sound healing into yoga practice are numerous:</p>
@@ -106,7 +106,7 @@ function Page() {
 
             <div className='text-[#623810]/85 text-xl font-base text-center my-[250px] bg-white/80 border py-7 px-5 md:p-20 rounded'>
                 <h1 className='font-bold mb-5 text-xl md:text-2xl'>CONCLUSION</h1>
-                <p className='text-center md:text-xl md:text-center'>Reiki can be a powerful complement to sound healing and yoga practice, as it helps to balance the body's energy centers, promote emotional and physical well-being, and deepen the connection to one's inner self. </p></div>
+                <p className='text-center md:text-xl md:text-center'>Reiki can be a powerful complement to sound healing and yoga practice, as it helps to balance the body&apos;s energy centers, promote emotional and physical well-being, and deepen the connection to one&apos;s inner self. </p></div>
 
             {/* <h1 className='text-[#623810]/85 text-2xl md:text-5xl font-bold z-10 mb-20 md:leading-[70px] text-center'>Trained by the best instructors at <span className='italic font-light'> Academy of Sound Healing</span> <br></br>in India.</h1> */}
 
