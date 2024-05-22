@@ -27,7 +27,7 @@ function Page() {
 
         <div className='w-full h-[80px] bg-[#EADDD4] z-20 fixed flex items-center justify-center px-5'>
                 <div className='flex items-center justify-between  w-full max-w-[1500px]'>
-                    <Link href="/"><div className='text-[#623810]/85 font-light  md:text-[24px]'><span className='font-semibold md:text-[24px]'>EAGNA</span> WITH HANNAH</div></Link>
+                    <Link href="/"><div className='text-[#623810]/85 font-light  md:text-[24px] hover:scale-[1.05] transition duration-300'><span className='font-semibold md:text-[24px]'>EAGNA</span> WITH HANNAH</div></Link>
                     <div className='flex max-md:flex-col md:gap-5 items-center'>
                         <h1 className='text-[15px] md:text-[24px] font-bold text-[#623810]/85'> YOGA</h1>
                         <button className='px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book a session</button>
@@ -109,8 +109,10 @@ function Page() {
                 <p className='text-center md:text-xl md:text-center'>Yoga is not just a form of exercise but a comprehensive lifestyle that promotes overall well-being. Whether you seek physical fitness, mental clarity, or spiritual growth, yoga offers tools and techniques to help you achieve a balanced and fulfilling life.</p></div>
             
             <div className='flex flex-col justify-center items-center mb-[200px] w-full'>
-                <h1 className='text-[#623810]/85 text-2xl md:text-5xl font-bold z-10  md:leading-[50px] text-center'>YOGA<span className='italic font-light'>with Hannah</span></h1>
-                <p className='text-[#623810]/85  font-base text-justify md:text-xl md:text-center my-20'>Discover the transformative power of yoga with personalized guidance from Hannah. Whether you're a beginner looking to start your yoga journey or an experienced practitioner aiming to deepen your practice, Hannah offers both private and group sessions tailored to meet your individual needs.</p>
+                <div className='bg-white/80 border py-7 px-5 md:p-20 rounded'>
+                    <h1 className='text-[#623810]/85 text-2xl md:text-5xl font-bold z-10  md:leading-[50px] text-center'>YOGA<span className='italic font-light'>with Hannah</span></h1>
+                    <p className='text-[#623810]/85  font-base text-justify md:text-xl md:text-center my-20'>Discover the transformative power of yoga with personalized guidance from Hannah. Whether you're a beginner looking to start your yoga journey or an experienced practitioner aiming to deepen your practice, Hannah offers both private and group sessions tailored to meet your individual needs.</p>
+                </div>
                 <div className='flex items-center mt-[100px] justify-between w-full gap-20'>
                     <Image src={yogaOne} alt='' className='rounded-full w-[400px] h-[400px] object-cover'/>
                     <Image src={yogaTwo} alt='' className='rounded-full w-[400px] h-[400px] object-cover'/>

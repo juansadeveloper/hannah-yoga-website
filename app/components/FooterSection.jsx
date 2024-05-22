@@ -28,8 +28,8 @@ function FooterSection() {
                     <Link href="sound-healing"><h3 className='text-[#623810]/85 font-light text-[14px] md:text-[18px] hover:cursor-pointer hover: transition-all duration-500 hover:-translate-y-1'><span className='font-semibold text-[14px] md:text-[18px]'>SOUND HEALING</span> WITH HANNAH</h3></Link>
                 </div>
                 <div className='flex max-md:flex-col md:items-center items-start w-full md:gap-10 justify-center'>
-                    <h3 className='text-[#623810]/85 font-light text-[14px] md:text-[18px] hover:cursor-pointer hover: transition-all duration-500 hover:-translate-y-1'><span className='font-semibold text-[14px] md:text-[18px]'>ABOUT</span> HANNAH</h3>
-                    <h3 className='text-[#623810]/85 font-light text-[14px] md:text-[18px] hover:cursor-pointer hover: transition-all duration-500 hover:-translate-y-1'><span className='font-semibold text-[14px] md:text-[18px]'>CONTACT</span> HANNAH</h3>
+                    <Link href="/#about"><h3 className='text-[#623810]/85 font-light text-[14px] md:text-[18px] hover:cursor-pointer hover: transition-all duration-500 hover:-translate-y-1'><span className='font-semibold text-[14px] md:text-[18px]'>ABOUT</span> HANNAH</h3></Link>
+                    <Link href="/#contact"><h3 className='text-[#623810]/85 font-light text-[14px] md:text-[18px] hover:cursor-pointer hover: transition-all duration-500 hover:-translate-y-1'><span className='font-semibold text-[14px] md:text-[18px]'>CONTACT</span> HANNAH</h3></Link>
                 </div>  
             </div>
         </div>
