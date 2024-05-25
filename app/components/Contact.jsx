@@ -9,9 +9,9 @@ function Contact() {
   return (
     <main id="contact" className='scroll-mt-[200px] text-center w-full max-w-[1080px] flex flex-col items-center justify-center mx-auto p-10 pb-20 text-accen bg-white/85 border-[1.5px] mt-40 text-accent mb-[200px]'>
         
-        <h1 className='text-accent font-bold text-5xl mt-20 mb-20'>Contact Hannah</h1>
-        <p className='text-justify mb-3 text-accent font-medium text-xl'>She’d love to hear from you!</p> 
-        <p className='text-accent mb-20 max-w-[800px]'>Whether you have questions about her yoga sessions, want to book a class, or simply want to connect, please use the information below to get in touch with Hannah.</p>
+        <h1 className='text-accent font-bold text-3xl md:text-5xl mt-20 mb-20'>Contact Hannah</h1>
+        <p className='text-justify mb-3 text-accent font-medium text-lg md:text-xl'>She’d love to hear from you!</p> 
+        <p className='text-accent mb-20 max-w-[800px] max-md:text-base font-light'>Whether you have questions about her yoga sessions, want to book a class, or simply want to connect, please use the information below to get in touch with Hannah.</p>
         {/* <p className='text-justify mb-3 text-accent font-medium text-xl mt-10'>Contact Information</p> */}
         <div className='flex flex-col items-start gap-5'>
             <div  className='flex justify-center items-center gap-5 hover:scale-[1.05]  cursor-pointer transition duration-300'>
@@ -28,13 +28,13 @@ function Contact() {
                 <Link href="https://www.instagram.com/eagnawithhannah/"><p className='text-accent'>@eagnawithhannah</p></Link>
             </div>
         </div>
-        <div className='flex flex-col items-center mt-20'>
-            <p className='text-justify mb-3 text-accent font-medium text-xl'>Get in touch</p> 
-            <p className='text-accent mb-20'>Alternatively you can fill out the form below, and Hannah will get back to you as soon as possible.</p>
+        <div className='flex flex-col items-center mt-20 w-full'>
+            <p className='text-justify mb-3 text-accent font-medium text-lg md:text-xl'>Get in touch</p> 
+            <p className='text-accent mb-20 max-md:text-base font-light'>Alternatively you can fill out the form below, and Hannah will get back to you as soon as possible.</p>
             <div className=''>
                 {/* <form  action="https://google.com" ref={form} onSubmit={sendEmail}>
                      */}
-                <form className='flex flex-col gap-5'>
+                <form className='flex flex-col gap-5 w-full'>
                     <input  type='text' placeholder='Name'  name="user_name" className='py-3 px-5 border rounded bg-white border-accent/30 focus:outline-none  text-accent text-sm focus:border-accent leading-tight'/>
                     <input type='email' placeholder='Email'  name="user_email" className='py-3 px-5 border rounded bg-white border-accent/30 focus:outline-none  text-accent text-sm focus:border-accent leading-tight'/>
                     <input type='number' placeholder='Phone number (optional)' data-aos='flip-up' className='py-3 px-5 border rounded focus:outline-none bg-white border-accent/30  text-accent text-sm focus:border-accent leading-tight'/>
@@ -42,10 +42,10 @@ function Contact() {
                     <button  type="submit" value="Send" className='py-3 px-5 font-medium  bg-background/70 rounded hover:font-semibold hover:bg-background'>Send Message</button>
                 </form>
             </div>
-            <div className='flex flex-col items-center'>
+            <div className='flex flex-col items-center max-md:mt-10'>
                 <p className='text-left mt-10 font-bold mb-3'>Thank you for reaching out!</p>
-                <p>I look forward to helping you on your yoga journey.</p>
-                <p>Namaste, Hannah</p>
+                <p className='font-light'>I look forward to helping you on your yoga journey.</p>
+                <p className='font-medium mt-3'>Namaste, Hannah</p>
             </div>
         </div>
     </main>
