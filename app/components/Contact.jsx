@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 function Contact() {
   return (
-    <main id="contact" className='scroll-mt-[200px] text-center w-full max-w-[1080px] flex flex-col items-center justify-center mx-auto p-10 pb-20 text-accen bg-white/85 border-[1.5px] mt-20 md:mt-40 text-accent md:mb-[200px]'>
+    <main id="contact" className='bg-[#F0EDEA] scroll-mt-[200px] text-center w-full max-w-[1080px] flex flex-col items-center justify-center mx-auto p-10 pb-20 text-accen bg-white/85 border-[1.5px] mt-20 md:mt-40 text-accent md:mb-[200px]'>
         
         <h1 className='text-accent font-bold text-3xl md:text-5xl my-10 md:my-20'>Contact Hannah</h1>
         <p className='text-justify mb-3 text-accent font-medium text-lg md:text-xl'>She’d love to hear from you!</p> 

@@ -48,7 +48,7 @@ function About() {
 
 
   return (
-    <main id="about" className='mt-20 md:mt-40 scroll-mt-[200px] text-center w-full max-w-[1080px] flex flex-col justify-center mx-auto p-10 bg-white/85 border-[1.5px] border-[#4a4036]/20  text-accent rounded  '>
+    <main id="about" className='bg-[#F0EDEA] mt-20 md:mt-40 scroll-mt-[200px] text-center w-full max-w-[1080px] flex flex-col justify-center mx-auto p-10 bg-white/85 border-[1.5px] border-[#4a4036]/20  text-accent rounded  '>
 
 
         {/* <Image src={background} alt='background' fill={true} className='object-cover z-[-5]' /> */}
