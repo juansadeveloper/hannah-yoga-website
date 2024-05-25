@@ -29,8 +29,8 @@ function Hero() {
   return (
     <div className='relative flex flex-col justify-center items-center min-h-screen px-5'>
         
-        <Image src={background} alt='background'  className='object-cover z-[-5] absolute top-0' />
-        <Image src={background} alt='background'  className='object-cover z-[-5] absolute max-md:top-[300px] md:top-[500px]  lg:top-[1000px]' />
+        {/* <Image src={background} alt='background'  className='object-cover z-[-5] absolute top-0' /> */}
+        {/* <Image src={background} alt='background'  className='object-cover z-[-5] absolute max-md:top-[300px] md:top-[500px]  lg:top-[1000px]' />
         <Image src={background} alt='background'  className='object-cover z-[-5] absolute max-md:top-[600px] md:top-[] lg:top-[2000px]' />
         <Image src={background} alt='background'  className='object-cover z-[-5] absolute max-md:top-[900px] md:top-[] lg:top-[3000px]' />
         <Image src={background} alt='background'  className='object-cover z-[-5] absolute max-md:top-[1200px] md:top-[] lg:top-[3278px]' />
@@ -48,7 +48,7 @@ function Hero() {
         <Image src={background} alt='background'  className='object-cover z-[-5] absolute max-md:top-[4800px]' />
         <Image src={background} alt='background'  className='object-cover z-[-5] absolute max-md:top-[5100px]' />
         <Image src={background} alt='background'  className='object-cover z-[-5] absolute max-md:top-[5400px]' />
-        <Image src={background} alt='background'  className='object-cover z-[-5] absolute max-md:top-[5650px]' />
+        <Image src={background} alt='background'  className='object-cover z-[-5] absolute max-md:top-[5650px]' /> */}
 
         <div className='relative flex justify-center mt-20 '>
           <Image src={mainpic} alt='hero-image'  className=' object-cover w-[980px] h-[550px] border-[10px] shadow-box border-white mt-20 md:mt-32'></Image>

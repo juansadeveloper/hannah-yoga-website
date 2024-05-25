@@ -39,7 +39,7 @@ function Contact() {
                     <input type='email' placeholder='Email'  name="user_email" className='py-3 px-5 border rounded bg-white border-accent/30 focus:outline-none  text-accent text-sm focus:border-accent leading-tight'/>
                     <input type='number' placeholder='Phone number (optional)' data-aos='flip-up' className='py-3 px-5 border rounded focus:outline-none bg-white border-accent/30  text-accent text-sm focus:border-accent leading-tight'/>
                     <textarea   cols='30' placeholder='Message' rows='10'  name='message'className='py-3 px-5 border rounded focus:outline-none bg-white border-accent/30 resize-none  text-accent text-sm focus:border-accent leading-tight'></textarea>
-                    <button  type="submit" value="Send" className='py-3 px-5 font-medium  bg-background/70 rounded hover:font-semibold hover:bg-background'>Send Message</button>
+                    <button  type="submit" value="Send" className='py-3 px-5 font-medium  bg-[#ede2d3]/80 rounded hover:bg-[#ede2d3]'>Send Message</button>
                 </form>
             </div>
             <div className='flex flex-col items-center max-md:mt-10'>

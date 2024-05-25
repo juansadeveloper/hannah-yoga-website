@@ -48,10 +48,10 @@ function Page() {
         </div> */}
 
 
-        <Image src={background} alt='background'  className='absolute top-0 object-cover z-[-15] ' />
-        <Image src={background} alt='background'  className='absolute top-[200px]  md:top-[550px] lg:top-[1000px] object-cover z-[-15] ' />
-        <Image src={background} alt='background'  className='absolute top-[400px] md:top-[1100px] lg:top-[2000px] object-cover z-[-15] ' />
-        <Image src={background} alt='background'  className='absolute top-[600px] md:top-[1650px] lg:top-[2800px] object-cover z-[-15] ' />
+        {/* <Image src={background} alt='background'  className='absolute top-0 object-cover z-[-15] ' /> */}
+        {/* <Image src={background} alt='background'  className='absolute top-[200px]  md:top-[550px] lg:top-[1000px] object-cover z-[-15] ' /> */}
+        {/* <Image src={background} alt='background'  className='absolute top-[400px] md:top-[1100px] lg:top-[2000px] object-cover z-[-15] ' /> */}
+        {/* <Image src={background} alt='background'  className='absolute top-[600px] md:top-[1650px] lg:top-[2800px] object-cover z-[-15] ' /> */}
         {/* <Image src={background} alt='background'  className='absolute top-[800px] md:top-[2200px] lg:top-[3900px] object-cover z-[-15] ' /> */}
         {/* <Image src={background} alt='background'  className='absolute top-[1000px] md:top-[2750px] lg:top-[3900px] object-cover z-[-15] ' /> */}
         {/* <Image src={background} alt='background'  className='absolute top-[1200px] md:top-[3300px] lg:top-[3900px] object-cover z-[-15] ' /> */}
