@@ -21,7 +21,7 @@ import background from '../../public/footer-bg3.jpg'
 
 function Footer() {
   return (
-    <main className='w-full max-md:pb-2 md:h-[350px] z-10 relative'>
+    <main className='w-full max-md:pb-2 md:h-[350px] max-md:mt-28 z-10 relative'>
         
         <Image src={background} alt='' fill={true} className=' object-cover z-[-5] w-full bottom-0 absolute opacity-[0.7]'/>
         <div className='text-center p-10'>

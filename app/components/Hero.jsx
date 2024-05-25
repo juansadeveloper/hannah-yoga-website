@@ -35,10 +35,10 @@ function Hero() {
         {/* <Image src={background} alt='background'  className='object-cover z-[-5] absolute top-[3000px]' /> */}
         {/* <Image src={background} alt='background'  className='object-cover z-[-5] absolute top-[3300px]' /> */}
         <div className='relative flex justify-center mt-20 '>
-          <Image src={mainpic} alt='hero-image'  className=' object-cover w-full max-w-[1080px] h-[550px] border-[10px] shadow-box border-white mt-32'></Image>
+          <Image src={mainpic} alt='hero-image'  className=' object-cover w-full max-w-[1080px] h-[550px] border-[10px] shadow-box border-white mt-20 md:mt-32'></Image>
           {/* <p className='max-w-[800px] text-center text-2xl font-semibold bg-white/20 rounded p-10'>Remember when the power of love overcomes the love of power, the world will know peace.<br></br> This starts within. This begins with you.</p> */}
-          <p className='absolute bottom-7 text-center text-xl italic text-[#E6E3E3] rounded p-10'>EMBRACE A BETTER LIFE THROUGH YOGA PRACTICE.</p>
-          <p className='absolute bottom-0 text-center text-xl italic text-[#E6E3E3] rounded p-10'>EMBRACE A BETTER YOU.</p>
+          <p className='absolute bottom-7 text-center text-lg md:text-xl italic text-[#E6E3E3] rounded p-10'>EMBRACE A BETTER LIFE THROUGH YOGA PRACTICE.</p>
+          <p className='absolute bottom-0 text-center text-lg md:text-xl italic text-[#E6E3E3] rounded p-10'>EMBRACE A BETTER YOU.</p>
         </div>
         <Link href="#about"><IoIosArrowDown size={47} className='text-accent/50 mt-14 py-3 px-2 bg-white border rounded-full hover:border-accent/50 hover:text-accent transition duration-300'/></Link>
         <About />

@@ -48,7 +48,7 @@ function About() {
 
 
   return (
-    <main id="about" className='mt-40 scroll-mt-[200px] text-center w-full max-w-[1080px] flex flex-col justify-center mx-auto p-10 bg-white/85 border-[1.5px] border-[#4a4036]/20  text-accent rounded  '>
+    <main id="about" className='mt-20 md:mt-40 scroll-mt-[200px] text-center w-full max-w-[1080px] flex flex-col justify-center mx-auto p-10 bg-white/85 border-[1.5px] border-[#4a4036]/20  text-accent rounded  '>
 
 
         {/* <Image src={background} alt='background' fill={true} className='object-cover z-[-5]' /> */}
@@ -84,7 +84,7 @@ function About() {
             <p className={toggleThree ? "text-justify italic font-light" : "text-justify hidden"}>Hannah believes that yoga is more than just a physical practice; it is a journey of     self-discovery and personal growth. She is passionate about helping her students find balance, inner peace, and a deeper    connection to themselves. Her teachings encourage mindfulness, self-compassion, and a positive outlook on life.</p>
 
             <div className='flex gap-3 items-center cursor-pointer' onClick={switchToggleFour}>
-                <h3 className='text-accent font-medium text-lg md:text-xl'>Community and Connection</h3>
+                <h3 className='text-accent font-medium text-lg md:text-xl'>Community & Connection</h3>
                 {toggleFour ? <IoIosArrowUp size={20} className='text-accent/20'/> : <IoIosArrowDown size={20} className='text-accent/50'/>}
             </div>
             <p className={toggleFour ? "text-justify italic font-light" : "text-justify hidden"}>In addition to teaching, Hannah is committed to building a strong sense of community among her  students. She fosters an environment where everyone feels connected and supported, both on and off the mat. Through  workshops, retreats, and group classes, Hannah creates opportunities for her students to deepen their practice and form  lasting connections.</p>
