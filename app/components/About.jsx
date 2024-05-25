@@ -48,13 +48,13 @@ function About() {
 
 
   return (
-    <main id="about" className='bg-[#F0EDEA] mt-20 md:mt-40 scroll-mt-[200px] text-center w-full max-w-[1080px] flex flex-col justify-center mx-auto p-10 bg-white/85 border-[1.5px] border-[#4a4036]/20  text-accent rounded  '>
+    <main id="about" className='bg-[#F0EDEA] mt-20 md:mt-40 scroll-mt-[200px] text-center w-full max-w-[1080px] flex flex-col justify-center mx-auto p-5 md:p-10 bg-white/85 border-[1.5px] border-[#4a4036]/20  text-accent rounded  '>
 
 
         {/* <Image src={background} alt='background' fill={true} className='object-cover z-[-5]' /> */}
         <h1 className='text-accent font-bold text-3xl md:text-5xl mt-10 md:mt-20 md:mb-20'>About Hannah</h1>
 
-        <div className='flex flex-col-reverse md:flex-col'>
+        <div className='flex flex-col-reverse md:flex-col '>
             <p className='md:text-center max-md:mt-20 text-justify text-base md:text-lg'>Hannah is a dedicated and compassionate yoga teacher with over a decade of experience in guiding individuals on their yoga journey. Her teaching philosophy centers around the belief that yoga is for everyone, regardless of age, fitness level, or experience. Hannah&apos;s approach is holistic, combining physical postures, breathing techniques, and mindfulness practices to create a well-rounded and enriching yoga experience.</p>
             <div className='flex max-md:flex-col items-center justify-between gap-5 mt-20'>
                 <Image src={one} alt='' className='object-cover w-[300px] h-[300px] '/>

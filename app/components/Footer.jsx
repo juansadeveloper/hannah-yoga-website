@@ -8,7 +8,7 @@ import Link from 'next/link'
 
 
 //PICTURES
-import background from '../../public/footer-bg3.jpg'
+import background from '../../public/footer-bg4.jpg'
 
 
 
