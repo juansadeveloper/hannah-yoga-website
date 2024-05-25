@@ -40,7 +40,7 @@ function Hero() {
           <p className='absolute bottom-7 text-center text-lg md:text-xl italic text-[#E6E3E3] rounded p-10'>EMBRACE A BETTER LIFE THROUGH YOGA PRACTICE.</p>
           <p className='absolute bottom-0 text-center text-lg md:text-xl italic text-[#E6E3E3] rounded p-10'>EMBRACE A BETTER YOU.</p>
         </div>
-        <Link href="#about"><IoIosArrowDown size={47} className='text-accent/50 mt-14 py-3 px-2 bg-white border rounded-full hover:border-accent/50 hover:text-accent transition duration-300'/></Link>
+        <Link href="#about"><IoIosArrowDown size={47} className='max-md:hidden text-accent/50 mt-14 py-3 px-2 bg-white border rounded-full hover:border-accent/50 hover:text-accent transition duration-300'/></Link>
         <About />
         <Join />
         <Why />
