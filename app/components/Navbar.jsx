@@ -8,8 +8,9 @@ import Link from 'next/link';
 
 
 //PICTURES
-// import background from "../../public/navbar-bg3.jpg"
-import background from "../../public/navbar-bg5.jpg"
+import background from "../../public/navbar-bg8.jpg"
+// import background from "../../public/navbar-bg4.jpg"
+// import background from "../../public/navbar-bg5.jpg"
 
 
 //ICONS

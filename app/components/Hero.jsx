@@ -13,6 +13,7 @@ import Contact from './Contact'
 import Why from './Why'
 import Join from './Join'
 import Link from 'next/link'
+import Quote from './Quote'
 // import background from "../../public/background.jpeg"
 // import background from "../../public/background2.jpeg"
 // import background from "../../public/background4.jpeg"
@@ -60,6 +61,7 @@ function Hero() {
         <About />
         <Join />
         <Why />
+        <Quote />
         <Contact />
     
     </div>
