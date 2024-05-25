@@ -56,7 +56,7 @@ function Navbar() {
         {nav ? <AiOutlineClose size={30} className='md:hidden cursor-pointer text-accent z-10' onClick={toggleNav}/> : <IoMenuSharp size={30} className='md:hidden cursor-pointer text-accent' onClick={toggleNav} />}
         {nav ? 
             <ul className='md:hidden absolute top-0 left-0 flex flex-col w-full z-0 bg-gradient-to-b from-[#EADDD4] to-[#F1EDEA]' onClick={toggleNav}>
-                <div className='justify-center items-center flex flex-col h-screen  text-accent text-xl px-5'>
+                <div className='justify-center items-center flex flex-col h-screen pb-20  text-accent text-xl px-5'>
                   <Link href="/yoga"><li className='hover:text-white/85 transition duration-300  rounded px-4 py-2 cursor-pointer'>YOGA</li></Link>
                   <Link href="/reiki"><li className='hover:text-white/85 transition duration-300  rounded px-4 py-2 cursor-pointer'>REIKI</li></Link>
                   <Link href="/sound-healing"><li className='hover:text-white/85 transition duration-300  rounded px-4 py-2 cursor-pointer'>SOUND HEALING</li></Link>
