@@ -64,9 +64,9 @@ function Navbar() {
                   <Link href="#about"><li className='hover:text-white/85 transition duration-300  rounded px-4 py-2 cursor-pointer'>ABOUT</li></Link>
                   <Link href="#contact"><li className='hover:text-white/85 transition duration-300  rounded px-4 py-2 cursor-pointer'>CONTACT</li></Link>
                   <li className='hover:text-white/85 transition duration-300  rounded px-4 py-2 cursor-pointer'>UPCOMING RETREATS</li>
-                  <div className='w-full h-[5px] bg-white mt-20'></div>
+                  <div className='w-full h-[5px] bg-white my-10'></div>
                   <div>
-                    <p className='text-justify  text-accent font-medium text-xl mt-20 mb-5'>Connect with Hannah</p>
+                    <p className='text-justify  text-accent font-medium text-xl mb-5'>Connect with Hannah</p>
                     <div  className='flex justify-center items-center gap-5 '>
                       <Link target="_blank" href="https://api.whatsapp.com/send?phone=353877622193&text=Hello+Hannah,+ I´m interested+in+your+yoga´s+services&app_absent=0"><FaWhatsapp size={30} className='text-accent'/></Link>
                       <MdOutlineEmail size={30} className='text-accent hover:scale-[1.05]  cursor-pointer transition duration-300'/>
