@@ -44,18 +44,18 @@ function Navbar() {
         <div className='max-w-[1580px] w-full h-full flex justify-between items-center px-5'>
             <Link href="/"><div className='text-[#623810]/85 hover:scale-[1.05] transition duration-300 font-light  text-[24px]'><span className='font-semibold text-[24px]'>EAGNA</span> WITH HANNAH</div></Link>
             <ul className=' px-5 py-3 rounded-md max-lg:hidden flex items-center gap-3 text-black/50 text-base font-medium'>
+                <li className='hover:text-accent transition duration-300 bg-white/85 rounded px-4 py-2 cursor-pointer'>UPCOMING RETREATS</li>
                 <Link href="/yoga"><li className='hover:text-white/85 transition duration-300  rounded px-4 py-2 cursor-pointer'>YOGA</li></Link>
                 <Link href="/reiki"><li className='hover:text-white/85 transition duration-300  rounded px-4 py-2 cursor-pointer'>REIKI</li></Link>
                 <Link href="/sound-healing"><li className='hover:text-white/85 transition duration-300  rounded px-4 py-2 cursor-pointer'>SOUND HEALING</li></Link>
                 <li className='hover:text-white/85 transition duration-300  rounded px-4 py-2 cursor-pointer'>FUNDRAISING</li>
                 <Link href="#about"><li className='hover:text-white/85 transition duration-300  rounded px-4 py-2 cursor-pointer'>ABOUT</li></Link>
                 <Link href="#contact"><li className='hover:text-white/85 transition duration-300  rounded px-4 py-2 cursor-pointer'>CONTACT</li></Link>
-                <li className='hover:text-accent transition duration-300 bg-white/85 rounded px-4 py-2 cursor-pointer'>UPCOMING RETREATS</li>
             </ul>
             {/* <IoMenuSharp size={30} className='hover:cursor-pointer lg:hidden'/> */}
-        {nav ? <AiOutlineClose size={30} className='md:hidden cursor-pointer text-accent z-10' onClick={toggleNav}/> : <IoMenuSharp size={30} className='md:hidden cursor-pointer text-accent' onClick={toggleNav} />}
+        {nav ? <AiOutlineClose size={30} className='mlg:hidden cursor-pointer text-accent z-10' onClick={toggleNav}/> : <IoMenuSharp size={30} className='md:hidden cursor-pointer text-accent' onClick={toggleNav} />}
         {nav ? 
-            <ul className='md:hidden absolute top-0 left-0 flex flex-col w-full z-0 bg-gradient-to-b from-[#EADDD4] to-[#F1EDEA]' onClick={toggleNav}>
+            <ul className='lg:hidden absolute top-0 left-0 flex flex-col w-full z-0 bg-gradient-to-b from-[#EADDD4] to-[#F1EDEA]' onClick={toggleNav}>
                 <div className='justify-center items-center flex flex-col h-screen pb-20  text-accent text-xl px-5'>
                   <Link href="/yoga"><li className='hover:text-white/85 transition duration-300  rounded px-4 py-2 cursor-pointer'>YOGA</li></Link>
                   <Link href="/reiki"><li className='hover:text-white/85 transition duration-300  rounded px-4 py-2 cursor-pointer'>REIKI</li></Link>
