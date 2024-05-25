@@ -52,7 +52,7 @@ function About() {
 
 
         {/* <Image src={background} alt='background' fill={true} className='object-cover z-[-5]' /> */}
-        <h1 className='text-accent font-bold text-3xl md:text-5xl mt-10 md:mt-20 md:mb-20'>Who is Hannah?</h1>
+        <h1 className='text-accent font-bold text-3xl md:text-5xl mt-10 md:mt-20 md:mb-20'>About Hannah</h1>
 
         <div className='flex flex-col-reverse md:flex-col'>
             <p className='md:text-center max-md:mt-20 text-justify text-base md:text-lg'>Hannah is a dedicated and compassionate yoga teacher with over a decade of experience in guiding individuals on their yoga journey. Her teaching philosophy centers around the belief that yoga is for everyone, regardless of age, fitness level, or experience. Hannah&apos;s approach is holistic, combining physical postures, breathing techniques, and mindfulness practices to create a well-rounded and enriching yoga experience.</p>
