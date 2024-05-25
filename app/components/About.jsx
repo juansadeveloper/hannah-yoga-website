@@ -56,7 +56,7 @@ function About() {
 
         <div className='flex flex-col-reverse md:flex-col '>
             <p className='md:text-center max-md:mt-20 text-justify text-base md:text-lg'>Hannah is a dedicated and compassionate yoga teacher with over a decade of experience in guiding individuals on their yoga journey. Her teaching philosophy centers around the belief that yoga is for everyone, regardless of age, fitness level, or experience. Hannah&apos;s approach is holistic, combining physical postures, breathing techniques, and mindfulness practices to create a well-rounded and enriching yoga experience.</p>
-            <div className='flex max-md:flex-col items-center justify-between gap-5 mt-20'>
+            <div className='flex max-md:flex-col items-center justify-between gap-5 mt-10 md:mt-20'>
                 <Image src={one} alt='' className='object-cover w-[300px] h-[300px] '/>
                 <Image src={two} alt='' className='object-cover w-[300px] h-[300px] '/>
                 <Image src={three} alt='' className='object-cover w-[300px] h-[300px] '/>
