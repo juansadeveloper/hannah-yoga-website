@@ -78,7 +78,7 @@ function Page() {
         <Image src={background} alt='background'  className='absolute top-[5200px] md:top-[4350px] lg:top-[3900px] object-cover z-[-15] ' /> */}
 
       
-        <div className='flex flex-col justify-center items-center h-screen w-full max-w-[800px] mt-[2400px]  md:mt-[2150px] text-center'>
+        <div className='flex flex-col justify-center items-center h-screen w-full max-w-[800px] mt-[2400px]  md:mt-[1850px] text-center'>
             <h1 className='text-[#623810]/85 text-2xl md:text-5xl font-bold z-10'>What is Yoga?</h1>
             <p className='text-[#623810]/85  font-base text-justify md:text-xl md:text-center my-20'>Yoga is a holistic practice that integrates physical postures, breathing techniques, meditation, and ethical principles to promote physical, mental, and spiritual well-being. Originating in ancient India over 5,000 years ago, yoga has evolved into various styles and forms, each emphasizing different aspects of the practice.</p>
             <h1 className='text-[#623810]/85 text-2xl md:text-5xl font-bold z-10'>Why practice Yoga?</h1>
