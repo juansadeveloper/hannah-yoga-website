@@ -57,14 +57,14 @@ function Navbar() {
         {nav ? 
             <ul className='lg:hidden absolute top-0 left-0 flex flex-col w-full z-0 bg-gradient-to-b from-[#EADDD4] to-[#F1EDEA]' onClick={toggleNav}>
                 <div className='justify-center items-center flex flex-col h-screen pb-20  text-accent text-xl px-5'>
-                  <Link href="/yoga"><li className='hover:text-white/85 transition duration-300  rounded px-4 py-2 cursor-pointer'>YOGA</li></Link>
-                  <Link href="/reiki"><li className='hover:text-white/85 transition duration-300  rounded px-4 py-2 cursor-pointer'>REIKI</li></Link>
-                  <Link href="/sound-healing"><li className='hover:text-white/85 transition duration-300  rounded px-4 py-2 cursor-pointer'>SOUND HEALING</li></Link>
-                  <li className='hover:text-white/85 transition duration-300  rounded px-4 py-2 cursor-pointer'>FUNDRAISING</li>
-                  <Link href="#about"><li className='hover:text-white/85 transition duration-300  rounded px-4 py-2 cursor-pointer'>ABOUT</li></Link>
-                  <Link href="#contact"><li className='hover:text-white/85 transition duration-300  rounded px-4 py-2 cursor-pointer'>CONTACT</li></Link>
+                  <Link href="/yoga"><li className='hover:text-white/85 transition duration-300  rounded px-4 py-1 cursor-pointer'>YOGA</li></Link>
+                  <Link href="/reiki"><li className='hover:text-white/85 transition duration-300  rounded px-4 py-1 cursor-pointer'>REIKI</li></Link>
+                  <Link href="/sound-healing"><li className='hover:text-white/85 transition duration-300  rounded px-4 py-1 cursor-pointer'>SOUND HEALING</li></Link>
+                  <li className='hover:text-white/85 transition duration-300  rounded px-4 py-1 cursor-pointer'>FUNDRAISING</li>
+                  <Link href="#about"><li className='hover:text-white/85 transition duration-300  rounded px-4 py-1 cursor-pointer'>ABOUT</li></Link>
+                  <Link href="#contact"><li className='hover:text-white/85 transition duration-300  rounded px-4 py-1 cursor-pointer'>CONTACT</li></Link>
                   <li className='hover:text-white/85 transition duration-300  rounded px-4 py-2 cursor-pointer'>UPCOMING RETREATS</li>
-                  <div className='w-full h-[5px] bg-white my-10'></div>
+                  <div className='w-full h-[3px] bg-white my-10'></div>
                   <div>
                     <p className='text-justify  text-accent font-medium text-xl mb-5'>Connect with Hannah</p>
                     <div  className='flex justify-center items-center gap-5 '>
@@ -73,6 +73,7 @@ function Navbar() {
                       <Link href="https://www.instagram.com/eagnawithhannah/"><AiOutlineInstagram size={30} className='text-accent hover:scale-[1.05]  cursor-pointer transition duration-300'/></Link>
                     </div> 
                   </div>
+                  <div className='w-full h-[3px] bg-white my-10'></div>
                   <Link href="/"><div className='mt-20 text-[#623810]/85 hover:scale-[1.05] transition duration-300 font-light  text-[24px]'><span className='font-semibold text-[24px]'>EAGNA</span> WITH HANNAH</div></Link>
                   {/* <p className='mt-20'>#TRANSFORM YOUR LIFE WITH YOGA.</p> */}
                   <p className='mt-3 font-light'>#YOGA IS OUR BEST CHOICE.</p>
