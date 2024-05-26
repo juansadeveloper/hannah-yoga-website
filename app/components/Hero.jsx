@@ -56,7 +56,7 @@ function Hero() {
         <div className=' flex flex-col  justify-start mt-20 '>
           {/* <Image src={mainpic} alt='hero-image'  className=' object-cover w-[980px] h-[450px] md:h-[550px] border-[10px] shadow-box border-white mt-20 md:mt-32'></Image> */}
           {/* <p className='max-w-[800px] text-center text-2xl font-semibold bg-white/20 rounded p-10'>Remember when the power of love overcomes the love of power, the world will know peace.<br></br> This starts within. This begins with you.</p> */}
-          <div className='p-5  rounded-lg mt-[700px] flex max-md:flex-col items-center md:gap-3 shadow-box'>
+          <div className='p-5  rounded-lg mt-[500px] flex max-md:flex-col items-center md:gap-3 shadow-box'>
           <p className=' text-center text-lg md:text-3xl font-bold italic text-white rounded '>EMBRACE A BETTER LIFE THROUGH YOGA PRACTICE.</p>
           <p className=' text-center text-lg md:text-3xl font-bold italic text-white rounded '>EMBRACE A BETTER YOU.</p>
           {/* <p className=' text-center text-lg md:text-3xl font-bold italic text-[#E6E3E3] rounded '>EMBRACE A BETTER YOU.</p> */}
