@@ -73,6 +73,9 @@ function Navbar() {
                       <Link href="https://www.instagram.com/eagnawithhannah/"><AiOutlineInstagram size={30} className='text-accent hover:scale-[1.05]  cursor-pointer transition duration-300'/></Link>
                     </div> 
                   </div>
+                  <Link href="/"><div className='mt-20 text-[#623810]/85 hover:scale-[1.05] transition duration-300 font-light  text-[24px]'><span className='font-semibold text-[24px]'>EAGNA</span> WITH HANNAH</div></Link>
+                  {/* <p className='mt-20'>#TRANSFORM YOUR LIFE WITH YOGA.</p> */}
+                  <p className='mt-3 font-light'>#YOGA IS OUR BEST CHOICE.</p>
                 </div>
             </ul>
             : ""}
