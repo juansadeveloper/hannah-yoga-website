@@ -2,7 +2,8 @@ import React from 'react'
 
 function Why() {
   return (
-    <main id="" className='bg-[#F0EDEA] mt-20 md:mt-40 text-center w-full max-w-[1080px] flex flex-col items-center justify-center mx-auto p-5 bg-white/85 shadow-box rounded-lg'>
+    <main className='px-5'>
+    <div id="" className='bg-[#F0EDEA] mt-20 md:mt-40 text-center w-full max-w-[1080px] flex flex-col items-center justify-center mx-auto p-5 bg-white/85 shadow-box rounded-lg'>
 
         <div className='flex flex-col items-center mt-10 md:mt-20 text-accent px-5'>
             <h3 className='text-accent font-bold text-3xl md:text-5xl mb-16 md:mb-20'>Why Practice with Hannah?</h3>
@@ -22,6 +23,7 @@ function Why() {
             </div>
         
         </div>
+    </div>
     </main>
   )
 }
