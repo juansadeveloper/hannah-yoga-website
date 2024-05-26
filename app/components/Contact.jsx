@@ -43,7 +43,7 @@ function Contact() {
                 </form>
             </div>
             <div className='flex flex-col items-center max-md:mt-10'>
-                <p className='text-left mt-10 font-bold mb-3'>Thank you for reaching out!</p>
+                <p className='text-left mt-10 font-semibold mb-3'>Thank you for reaching out!</p>
                 <p className='font-light'>I look forward to helping you on your yoga journey.</p>
                 <p className='font-medium mt-3'>Namaste, Hannah</p>
             </div>
