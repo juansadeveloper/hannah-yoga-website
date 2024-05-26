@@ -21,9 +21,9 @@ import background from '../../public/footer-bg8.jpg'
 
 function Footer() {
   return (
-    <main className='w-full max-md:pb-2 md:h-[350px] max-md:mt-28 z-10 relative'>
+    <main className='w-full max-md:pb-2 md:h-[350px] max-md:mt-28 z-10 relative bg-gradient-to-r from-[#ede3dd] via-[#faf7f5] to-[#ede3dd]'>
         
-        <Image src={background} alt='' fill={true} className=' object-cover z-[-5] w-full bottom-0 absolute opacity-[0.7]'/>
+        {/* <Image src={background} alt='' fill={true} className=' object-cover z-[-5] w-full bottom-0 absolute opacity-[0.7]'/> */}
         <div className='text-center p-10'>
             <h1 className='text-[#623810]/85 font-light  text-[34px]'><span className='font-semibold text-[34px]'>EAGNA</span> WITH HANNAH</h1>
             <div className='flex flex-col gap-5 md:gap-5 mt-20 max-md:items-start justify-start'>

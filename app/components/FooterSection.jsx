@@ -16,7 +16,7 @@ import React from 'react'
 
 function FooterSection() {
   return (
-    <main className='h-[550px] md:h-[350px] z-10 relative bg-[#EADDD4] w-screen '>
+    <main className='h-[550px] md:h-[350px] z-10 relative bg-gradient-to-r from-[#ede3dd] via-[#faf7f5] to-[#ede3dd] w-screen '>
         
         
         <div className='text-center p-10 h-[350px] relative'>

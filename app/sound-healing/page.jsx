@@ -24,7 +24,7 @@ function SoundHealing() {
 
         {/* <Navbar /> */}
 
-        <div className='w-full h-[80px] bg-[#EADDD4] z-20 fixed flex items-center justify-center px-5'>
+        <div className='w-full h-[80px] bg-[#ede3dd] z-20 fixed flex items-center justify-center px-5'>
                 <div className='flex items-center justify-between  w-full max-w-[1500px]'>
                 <Link href="/"><div className='text-[#623810]/85 font-light  md:text-[24px] hover:scale-[1.05] transition duration-300'><span className='font-semibold md:text-[24px]'>EAGNA</span> WITH HANNAH</div></Link>
                     <div className='flex max-md:flex-col md:gap-5 items-center'>
