@@ -133,6 +133,7 @@ function Page() {
                 <p className='text-[#623810]/85   font-base text-justify md:text-xl md:text-center '>Yoga is not just a form of exercise but a comprehensive lifestyle that promotes overall well-being. Whether you seek physical fitness, mental clarity, or spiritual growth, yoga offers tools and techniques to help you achieve a balanced and fulfilling life.</p>
             </div>
         </section>
+            <h1 className='text-[#623810]/85 font-bold text-xl md:text-2xl text-center mb-14 '>Main benefits of practicing Yoga</h1>
             <ul className='flex  gap-5 items-center justify-center flex-wrap max-w-[700px] '>
                 <li className='px-5 py-7  bg-white text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Physical Health</p></li>
                 <li className='px-5 py-7 bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Mental Health</p></li>

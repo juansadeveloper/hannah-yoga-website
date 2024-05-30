@@ -106,7 +106,8 @@ function Page() {
 
             <div className='text-[#623810]/85 text-xl font-base text-center my-[250px] bg-white/80 border py-7 px-5 md:p-20 rounded'>
                 <h1 className='font-bold mb-5 text-xl md:text-2xl'>THINK IT THIS WAY:</h1>
-                <p className='text-center md:text-xl md:text-center'>Yoga is not just a form of exercise but a comprehensive lifestyle that promotes overall well-being. Whether you seek physical fitness, mental clarity, or spiritual growth, yoga offers tools and techniques to help you achieve a balanced and fulfilling life.</p></div>
+                <p className='text-center md:text-xl md:text-center'>Yoga is not just a form of exercise but a comprehensive lifestyle that promotes overall well-being. Whether you seek physical fitness, mental clarity, or spiritual growth, yoga offers tools and techniques to help you achieve a balanced and fulfilling life.</p>
+            </div>
             
             <div className='flex flex-col justify-center items-center mb-[200px] w-full'>
                 <div className='bg-white/80 border py-7 px-5 md:p-20 rounded'>
