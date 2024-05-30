@@ -42,7 +42,7 @@ function Page() {
             </div>
         </div>
 
-        <section className='min-h-screen flex flex-col justify-center items-center pt-5 px-5 mt-10'> 
+        <section className='min-h-screen flex flex-col justify-center items-center pt-5 px-5 md:mt-10'> 
             <div className='mx-auto my-auto h-full md:max-h-[700px] mt-[135px] w-full grid grid-rows-4 md:grid-cols-3 md:grid-rows-2 gap-5 max-w-[1240px]'>
                 <div className='col-span-1 row-span-1 bg-[#f5f0ec] p-7 rounded-lg'>
                     <h2 className='text-3xl font-bold mb-7'>What is Yoga?</h2>
@@ -61,8 +61,8 @@ function Page() {
                     <h2 className='text-3xl font-bold mb-3'>Why with Hannah?</h2>
                     <p className='text-lg font-medium mb-7'>Read what her practitioners are saying:</p>
                     <div className='flex flex-col md:flex-row items-center gap-5'>
-                        <p className='font-extralight bg-white/80 p-2 rounded'>“I wanted to thank you and express my appreciation to your yesterday&apos;s class. Your energy is really amazing. There is so much beauty that you can share -it is unbelievable. I sincerely wish you all the best in your new « trusting it -path» 🙏”</p>
-                        <p className='font-extralight bg-white/80 p-2 rounded'>“I had such a great experience during our 1-1 yoga class! You brought so much care, compassion and fun to the session. Really enjoyed that it was tailored to my needs as it improved my practice loads giving me insight into how poses can be adjusted to suit my body.”</p>
+                        <p className='font-extralight bg-white/80 p-5 text-sm rounded'>“I wanted to thank you and express my appreciation to your yesterday&apos;s class. Your energy is really amazing. There is so much beauty that you can share -it is unbelievable. I sincerely wish you all the best in your new « trusting it -path» 🙏”</p>
+                        <p className='font-extralight bg-white/80 p-5 text-sm rounded'>“I had such a great experience during our 1-1 yoga class! You brought so much care, compassion and fun to the session. Really enjoyed that it was tailored to my needs as it improved my practice loads giving me insight into how poses can be adjusted to suit my body.”</p>
                     </div>
                 </div>
             </div>
@@ -72,14 +72,14 @@ function Page() {
         <section className='min-h-screen flex flex-col justify-center items-center max-md:px-5'>
             <h1 className='font-bold text-3xl mt-40  mb-10 max-md:text-center'>BOOK A YOGA CLASS TODAY</h1>
             <div className='w-full max-w-[1240px] flex flex-col md:flex-row items-center justify-center gap-10 py-7'>
-                <div className='bg-[#f5f0ec] gap-5 p-7 rounded-lg flex flex-col items-center justify-center cursor-pointer transition duration-500 shadow hover:shadow-xl'>
+                <div className='bg-[#f5f0ec] gap-5 p-7 rounded-lg  cursor-pointer transition duration-500 shadow hover:shadow-xl'>
                     <div>
                         <h1 className='font-bold text-3xl mb-10'>Individual Classes</h1>
                         <p className='max-w-[550px] mb-5 font-extralight '>Elevate your yoga journey with private classes tailored exclusively to you or your group. Receive individualized instruction and support from Hannah to deepen your practice and achieve your wellness goals.</p>
                     </div>
                     <Image src={photo4} alt='yoga-pic' className='object-cover w-full h-full max-w-[500px] max-h-[315px] max-md:h-[275px] rounded'/>
-                    <button className=' mt-5 px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book Individual Class</button>
-                    {/* <button className='mt-5 ml-5 px-2 py-1 md:px-3 md:py-2 bg-transparent rounded text-[#623810]/85  hover:underline font-medium transition duration-300 max-md:tracking-tight'>Get more info</button> */}
+                    <button className=' mt-5 px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book Private Class</button>
+                    <button className='mt-5 ml-5 px-2 py-1 md:px-3 md:py-2 bg-transparent rounded text-[#623810]/85  hover:underline font-medium transition duration-300 max-md:tracking-tight'>Get more info</button>
                 </div>
                 <div className='bg-[#f5f0ec] gap-5 p-7 rounded-lg  cursor-pointer transition duration-500 shadow hover:shadow-xl'>
                     <div>
@@ -94,7 +94,7 @@ function Page() {
         </section>
         <section className='flex flex-col justify-center items-center px-5 w-full'>
                 <div className='bg-white/80 border py-7 px-5 md:p-20 rounded w-full   md:max-w-[1240px] mt-20'>
-                    <h1 className='text-[#623810]/85  text-2xl md:text-5xl font-bold z-10  md:leading-[50px] text-center'>YOGA<span className='italic font-light'>with Hannah</span></h1>
+                    <h1 className='text-[#623810]/85  text-2xl md:text-5xl font-bold z-10  md:leading-[50px] text-center'>YOGA<span className='italic font-light'> with Hannah</span></h1>
                     <p className='text-[#623810]/85   font-base text-justify md:text-xl md:text-center mt-10'>Discover the transformative power of yoga with personalized guidance from Hannah. Whether you&apos;re a beginner looking to start your yoga journey or an experienced practitioner aiming to deepen your practice, Hannah offers both private and group sessions tailored to meet your individual needs.</p>
                 </div>
                 <h1 className='font-bold text-center max-w-[300px] text-2xl  md:text-3xl mt-40  mb-10'>CHOOSE THE TYPE OF YOGA THAT YOU PREFER</h1>
@@ -128,20 +128,20 @@ function Page() {
                         <button className='mt-5 px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book Ying Session</button>
                     </div>
                 </div>
-                <div className='text-[#623810]/85 text-xl font-base text-center mt-[150px] mb-20 bg-white/80 border py-5 px-5 md:p-10 rounded max-w-[1240px]'>
-                <h1 className='font-bold mb-5 text-xl md:text-2xl'>THINK IT THIS WAY:</h1>
-                <p className='text-center md:text-xl md:text-center'>Yoga is not just a form of exercise but a comprehensive lifestyle that promotes overall well-being. Whether you seek physical fitness, mental clarity, or spiritual growth, yoga offers tools and techniques to help you achieve a balanced and fulfilling life.</p>
+                <div className='text-[#623810]/85 mt-[150px] mb-20 bg-white/80 border py-5 px-5 md:p-10 rounded max-w-[1240px]'>
+                <h1 className='font-bold mb-5 text-xl md:text-2xl text-center'>THINK IT THIS WAY:</h1>
+                <p className='text-[#623810]/85   font-base text-justify md:text-xl md:text-center '>Yoga is not just a form of exercise but a comprehensive lifestyle that promotes overall well-being. Whether you seek physical fitness, mental clarity, or spiritual growth, yoga offers tools and techniques to help you achieve a balanced and fulfilling life.</p>
             </div>
         </section>
             <ul className='flex  gap-5 items-center justify-center flex-wrap max-w-[700px] '>
-                <li className='px-7 py-10 bg-white text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Physical Health</p></li>
-                <li className='px-7 py-10 bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Mental Health</p></li>
-                <li className='px-7 py-10 bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Spiritual Growth</p></li>
+                <li className='px-5 py-7 md:px-7 md:py-10 bg-white text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Physical Health</p></li>
+                <li className='px-5 py-7 md:px-7 md:py-10 bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Mental Health</p></li>
+                <li className='px-5 py-7 md:px-7 md:py-10 bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Spiritual Growth</p></li>
                 {/* <li className='px-7 py-10 bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Emotional Release</p></li> */}
                 {/* <li className='px-5 py-10 bg-white rounded text-[#623810] border border-[#623810]/20 font-medium text-center'><p>Stress Reduction</p></li> */}
                 {/* <li className='px-5 py-10 bg-white rounded text-[#623810] border border-[#623810]/20 font-medium text-center'><p>Energetic Balance</p></li> */}
                 {/* <li className='px-7 py-10 bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Enhanced Focus and Clarity</p></li> */}
-                <li className='px-7 py-10 bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Spiritual Connection</p></li>
+                <li className='px-5 py-7 md:px-7 md:py-10 bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Spiritual Connection</p></li>
             </ul>
             <div className='flex flex-col gap-5 justify-center items-center mt-[120px] mb-[70px] md:mb-[200px]'>
                 <button className='px-7 py-5 bg-[#623810]/85 hover:bg-[#623810]/95 hover:text-white/90 rounded text-white  font-medium min-w-[300px] transition duration-300'>Talk with Hannah</button>
