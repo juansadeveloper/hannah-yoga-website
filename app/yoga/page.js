@@ -97,7 +97,7 @@ function Page() {
                     <h1 className='text-[#623810]/85  text-2xl md:text-5xl font-bold z-10  md:leading-[50px] text-center'>YOGA<span className='italic font-light'> with Hannah</span></h1>
                     <p className='text-[#623810]/85   font-base text-justify md:text-xl md:text-center mt-5 md:mt-10'>Discover the transformative power of yoga with personalized guidance from Hannah. Whether you&apos;re a beginner looking to start your yoga journey or an experienced practitioner aiming to deepen your practice, Hannah offers both private and group sessions tailored to meet your individual needs.</p>
                 </div>
-                <h1 className='font-bold text-center max-w-[300px] text-2xl  md:text-3xl mt-40  mb-10'>CHOOSE THE TYPE OF YOGA THAT YOU PREFER</h1>
+                <h1 className='font-bold text-center max-md:max-w-[300px]  text-2xl  md:text-3xl mt-40  mb-10'>CHOOSE THE TYPE OF YOGA THAT YOU PREFER</h1>
                 <div className='w-full max-w-[1240px] flex flex-col md:flex-row items-center justify-center gap-5 py-7'>
                     <div className='bg-[#f5f0ec] gap-5 p-7 rounded-lg flex-col items-center md:hover:scale-[1.03] cursor-pointer transition duration-500 shadow hover:border hover:shadow-xl'>
                         <div>
@@ -134,21 +134,21 @@ function Page() {
             </div>
         </section>
             <ul className='flex  gap-5 items-center justify-center flex-wrap max-w-[700px] '>
-                <li className='px-5 py-7 md:px-7 md:py-10 bg-white text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Physical Health</p></li>
-                <li className='px-5 py-7 md:px-7 md:py-10 bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Mental Health</p></li>
-                <li className='px-5 py-7 md:px-7 md:py-10 bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Spiritual Growth</p></li>
+                <li className='px-5 py-7  bg-white text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Physical Health</p></li>
+                <li className='px-5 py-7 bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Mental Health</p></li>
+                <li className='px-5 py-7  bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Spiritual Growth</p></li>
                 {/* <li className='px-7 py-10 bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Emotional Release</p></li> */}
                 {/* <li className='px-5 py-10 bg-white rounded text-[#623810] border border-[#623810]/20 font-medium text-center'><p>Stress Reduction</p></li> */}
                 {/* <li className='px-5 py-10 bg-white rounded text-[#623810] border border-[#623810]/20 font-medium text-center'><p>Energetic Balance</p></li> */}
                 {/* <li className='px-7 py-10 bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Enhanced Focus and Clarity</p></li> */}
-                <li className='px-5 py-7 md:px-7 md:py-10 bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Spiritual Connection</p></li>
+                <li className='px-5 py-7  bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Spiritual Connection</p></li>
             </ul>
             <div className='flex flex-col gap-5 justify-center items-center mt-[120px] mb-[70px] md:mb-[200px]'>
                 <button className='px-7 py-5 bg-[#623810]/85 hover:bg-[#623810]/95 hover:text-white/90 rounded text-white  font-medium min-w-[300px] transition duration-300'>Talk with Hannah</button>
                 {/* <button className='px-7 py-5 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium min-w-[300px] transition duration-300'>Talk with Hannah</button> */}
             </div>
       
-        <div className='flex flex-col justify-center items-center text-center'>
+        <div className='w-full flex flex-col justify-center items-center text-center'>
         <Footer />   
         </div>
        
