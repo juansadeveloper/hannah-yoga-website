@@ -59,7 +59,7 @@ function Page() {
                 <Image src={photo3} alt='yoga-pic' className='col-span-1 rounded-lg object-cover w-full h-full max-md:h-[300px] order-2'/>
                 <div className='md:col-span-2 bg-[#f5f0ec] p-7 rounded-lg order-1'>
                     <h2 className='text-3xl font-bold mb-3'>Why with Hannah?</h2>
-                    <p className='text-lg font-medium mb-7'>Read what her practitioners are saying:</p>
+                    <p className='text-lg font-light mb-7'>Read what her practitioners are saying:</p>
                     <div className='flex flex-col md:flex-row items-center gap-5'>
                         <p className='font-extralight bg-white/80 p-5 text-sm rounded'>“I wanted to thank you and express my appreciation to your yesterday&apos;s class. Your energy is really amazing. There is so much beauty that you can share -it is unbelievable. I sincerely wish you all the best in your new « trusting it -path» 🙏”</p>
                         <p className='font-extralight bg-white/80 p-5 text-sm rounded'>“I had such a great experience during our 1-1 yoga class! You brought so much care, compassion and fun to the session. Really enjoyed that it was tailored to my needs as it improved my practice loads giving me insight into how poses can be adjusted to suit my body.”</p>
