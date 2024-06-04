@@ -54,21 +54,21 @@ function page() {
                 <h1 className='font-bold text-center max-md:max-w-[350px]   text-2xl  md:text-3xl mt-40  mb-5 text-[#623810]/85'>CHOOSE <span className='font-light'>THE PRICE & PACKAGE</span> THAT´S BETTER FOR YOU</h1>
                 <p className='mb-10 md:text-xl font-normal text-center italic'>Early Bird Discount €150 if booked before 11th August 2024.</p>
                 <div className='w-full max-w-[1240px] flex flex-col md:flex-row items-center justify-center gap-8 py-7'>
-                    <div className='bg-[#f5f0ec] gap-5 p-7 rounded-lg'>
+                    <div className='bg-[#f5f0ec] gap-5 p-7 rounded-lg w-full max-w-[400px]'>
                         <div>
                             <h1 className='font-bold text-2xl mb-2 text-[#623810]/85'>Basic</h1>
                             <p className='max-w-[550px] mb-5 font-extralight'>Retreat, All Meals & <span className='font-normal'>No Accomodation</span></p>
                         </div>
                         <button className='mt-5 px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight md:hover:scale-[1.03]'>Book for €550</button>
                     </div>
-                    <div className='bg-[#f5f0ec] gap-5 p-7 rounded-lg '>
+                    <div className='bg-[#f5f0ec] gap-5 p-7 rounded-lg w-full max-w-[400px]'>
                         <div>
                             <h1 className='font-bold text-2xl mb-2 text-[#623810]/85'>Practical</h1>
                             <p className='max-w-[550px] mb-5 font-extralight'>Retreat, All Meals & <span className='font-normal'>Shared Accomodation</span></p>
                         </div>
                         <button className='md:hover:scale-[1.03] mt-5 px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book for €850</button>
                     </div>
-                    <div className='bg-[#f5f0ec] gap-5 p-7 rounded-lg flex-col items-center '>
+                    <div className='bg-[#f5f0ec] gap-5 p-7 rounded-lg flex-col items-center w-full max-w-[400px]'>
                         <div>
                             <h1 className='font-bold text-2xl mb-2 text-[#623810]/85'>Full</h1>
                             <p className='max-w-[550px] mb-5 font-extralight'>Retreat, All Meals & <span className='font-normal'>Private Accomodation</span></p>
@@ -135,7 +135,8 @@ function page() {
                 <Image src={meera} alt='meera-pic' className='object-cover max-w-[300px] max-h-[300px] md:max-w-[450px] md:max-h-[450px] rounded-full'/>
                 </div>
                 <div className='max-w-[600px] text-justify text-[16px] max-md:mt-16 max-md:px-5'>
-                    <p className='mb-5'><span className='font-semibold'>We are honored to welcome Meera, a radiant soul all the way from India, to guide us through this transformative weekend retreat.</span> As the owner of Diya Yoga, a revered yoga teacher training school in Goa, India, Meera brings with her a wealth of knowledge and experience in the ancient art of yoga. Meera will generously share her vast expertise, offering enlightening yogic philosophy classes, yoga nidra sessions, and profound meditations. Her teachings are designed to help you restore mental clarity, rejuvenate your physical, mental, emotional, and spiritual well-being, and cultivate a lasting sense of calmness and inner peace.</p>
+                    <p className='mb-5'><span className='font-semibold'>We are honored to welcome Meera, a radiant soul all the way from India, to guide us through this transformative weekend retreat.</span></p> 
+                    <p>As the owner of Diya Yoga, a revered yoga teacher training school in Goa, India, Meera brings with her a wealth of knowledge and experience in the ancient art of yoga. Meera will generously share her vast expertise, offering enlightening yogic philosophy classes, yoga nidra sessions, and profound meditations. Her teachings are designed to help you restore mental clarity, rejuvenate your physical, mental, emotional, and spiritual well-being, and cultivate a lasting sense of calmness and inner peace.</p>
                     <p className='mb-5'>Meera&apos;s warm-hearted presence and compassionate guidance will create a nurturing and supportive environment for your journey of self-discovery and inner transformation.</p>
                     <p className='mb-5'>Meera&apos;s journey has been deeply rooted in spirituality since her early years. Raised in the Osho International Ashram in Pune, she delved into both ancient Indian philosophy and modern therapeutic techniques, fostering a profound understanding of these diverse traditions. This foundational knowledge shaped her into a skilled practitioner of yoga, meditation, and various therapeutic modalities.</p>
                     <p className='mb-5'>From Yoga Nidra and Chakra Healing to Dream Dialogue and trauma healing, Meera&apos;s expansive toolkit enables her to guide others toward enhanced well-being & transformative experiences. Over the past two decades, she has shared her wisdom and supported individuals in India, Europe, Israel, and Australia in their quest for peace and personal growth through yoga and therapeutic meditation.</p>
@@ -145,7 +146,7 @@ function page() {
             </div>
             <div className='flex flex-col-reverse md:flex-row justify-between items-center md:items-start mt-40'>
                 <div className='max-w-[600px] text-justify text-[16px] max-md:mt-16 max-md:px-5'>
-                    <p className='mb-5'><span className='font-semibold'>Hannah Nevin, founder of Eagna, a holistic pursuit focusing on Yoga, Reiki & Sound Healing.</span> Hannah has solo traveled the world on a journey of self discovery, transformation & holistic healing. Hannah has trained and teaches at Diya Yoga in Goa, India, Hannah’s classes are perfect to restore balance in your physical, mental, emotional & energetic health. Hannah merges together techniques from multiple traditions, creating a harmonious blend of asana, pranayama, mantras, mudras, meditation, yogic philosophy, advanced anatomy & alignment in her classes. She will guide you through invigorating Hatha morning practice, along with bringing you on deeply relaxing journeys through yin & restorative yoga. She will compliment these practices using reiki, an energetic healing modality, along with sound healing to create a comforting, profound & tranquil experience. Emerge from these transformative experiences feeling rejuvenated, balanced, and aligned as you nurture your body, mind & soul.</p>
+                    <p className='mb-5'><span className='font-semibold'>Hannah Nevin, founder of Eagna, a holistic pursuit focusing on Yoga, Reiki & Sound Healing.</span></p> <p>Hannah has solo traveled the world on a journey of self discovery, transformation & holistic healing. Hannah has trained and teaches at Diya Yoga in Goa, India, Hannah’s classes are perfect to restore balance in your physical, mental, emotional & energetic health. Hannah merges together techniques from multiple traditions, creating a harmonious blend of asana, pranayama, mantras, mudras, meditation, yogic philosophy, advanced anatomy & alignment in her classes. She will guide you through invigorating Hatha morning practice, along with bringing you on deeply relaxing journeys through yin & restorative yoga. She will compliment these practices using reiki, an energetic healing modality, along with sound healing to create a comforting, profound & tranquil experience. Emerge from these transformative experiences feeling rejuvenated, balanced, and aligned as you nurture your body, mind & soul.</p>
                     <p className='mb-5'>Hannah embraces yoga as a way of life, not only through asanas, but through her way of living, leading her to become a dedicated teacher & practitioner. Through her dedication to helping others connect with & heal themselves, Hannah uplifts those who cross her path.</p>
                     <p className='mb-5'>A budding entrepreneur, Hannah is present to listen, to hold space & be there for you before, during & after the weekend ensuring your optimum comfort, feelings of safety, security & peace during this special weekend</p>
                 </div>  
@@ -159,8 +160,8 @@ function page() {
 
        
         <section className='max-w-[1000px] w-full max-md:px-5 max-md:text-justify'>
-            <h1 className='font-light mx-auto  text-center max-md:max-w-[350px] text-[#623810]/85  text-2xl  md:text-3xl mt-[250px]  mb-5'>ACCOMODATION & DINNER</h1>
-            <p className='mb-5 mt-20 '><span className='font-semibold'>We will be hosted by the award-winning, Nevins Newfield Inn,</span> who proudly assert themselves as the: “Home of Hospitality.” The hotel is set amid beautiful Irish nature overlooking the amazing islands of Clew Bay & Croagh Patrick, whilst the Great Western Greenway & the Nephin Mountains sit peacefully behind the premises. Nevins ensure to go above and beyond, regarding the standard of food & beverages they provide using only fresh & locally sourced produce.</p>
+            <h1 className='font-light mx-auto  text-center max-md:max-w-[350px] text-[#623810]/85  text-2xl  md:text-3xl mt-40 md:mt-[250px]  mb-5'>ACCOMODATION & DINNER</h1>
+            <p className='mb-5 mt-20 '><span className='font-semibold'>We will be hosted by the award-winning, Nevins Newfield Inn, who proudly assert themselves as the: “Home of Hospitality.” </span></p><p>The hotel is set amid beautiful Irish nature overlooking the amazing islands of Clew Bay & Croagh Patrick, whilst the Great Western Greenway & the Nephin Mountains sit peacefully behind the premises. Nevins ensure to go above and beyond, regarding the standard of food & beverages they provide using only fresh & locally sourced produce.</p>
             <p className='mb-5'>Nevin’s has recently renovated, luxurious bedrooms that feature en suites, double & single beds, televisions with satellite channels, tea & coffee facilities, free WIFI internet access, hairdryers, iron, iron boards & complimentary toiletries. Their guest bedrooms have been designed for ultimate comfort and relaxation.</p>
             <p className='mb-5'>Nevins ensures to provide you a relaxing & revitalizing experience throughout your stay, making you feel at home every step of the way.</p>
         </section>
@@ -182,7 +183,7 @@ function page() {
             <p className='mt-5'>For reservations and/or questions about the weekend, please email hannahnevin@gmail.com or book through this <Link href="#" className='underline font-semibold'>link.</Link></p>
             <p className='mt-36 text-center font-light text-xl md:text-3xl  leading-relaxed tracking-tight'>We look forward to welcoming you on your journey to inner peace, where every moment promises to rejuvenate your body, mind, and spirit.<br></br> <span className='font-bold'>Join us</span> <span className='font-bold'>in County Mayo, Ireland </span><span className='font-bold '>for an unforgettable retreat experience</span> filled with tranquility, connection, and self-discovery.</p>
             </div>
-            <button className='mb-40 px-7 py-5 bg-[#623810]/85 hover:bg-[#623810]/95 hover:text-white/90 rounded text-white  font-medium min-w-[300px] transition duration-300'>Join The Retreat</button>
+            <button className='mb-20 md:mb-40 px-7 py-5 bg-[#623810]/85 hover:bg-[#623810]/95 hover:text-white/90 rounded text-white  font-medium min-w-[300px] transition duration-300'>Join The Retreat</button>
         </section>
 
 
