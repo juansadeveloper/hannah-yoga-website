@@ -40,7 +40,7 @@ function Footer() {
                 </div>  
             </div>
         </div>
-        <h1 className='max-md:mx-auto max-md:mb-10 max-md:text-sm max-md:text-center max-md:mt-10 text-white/90 md:absolute md:right-0 md:mr-10 max-md:max-w-[210px] bg-black/20 px-3 py-1 rounded-md hover:text-white hover:bg-black/40 cursor-pointer'>Made by SP Studio Design</h1>  
+        <h1 className='max-md:mx-auto max-md:mb-10 max-md:text-sm max-md:text-center max-md:mt-10 text-white/90 md:absolute md:right-0 md:mr-10 max-md:max-w-[210px] bg-black/20 px-3 py-1 rounded-md hover:text-white hover:bg-black/40 cursor-pointer'>Made by Infinite Studio</h1>  
     
     </main>
   )
