@@ -80,7 +80,7 @@ function page() {
 
                 <h1 className='font-light text-center max-md:max-w-[300px] text-[#623810]/85  text-2xl  md:text-3xl mt-40  mb-5'>RETREAT SCHEDULE</h1>
                 <p className='mb-10 md:text-xl font-normal text-center italic'>The schedule may vary depending on weather and day to day activities</p>
-                <div className='w-full max-w-[1240px] flex flex-col md:flex-row items-start justify-center gap-5 py-7'>
+                <div className='w-full max-w-[1240px] flex flex-col md:flex-row items-start justify-center gap-8 py-7'>
                     <div className='bg-[#f5f0ec]  p-7 rounded-lg'>
                         <div className='max-w-[350px]'>
                             <h1 className='font-bold text-2xl mb-10 text-[#623810]/85'>Friday</h1>
