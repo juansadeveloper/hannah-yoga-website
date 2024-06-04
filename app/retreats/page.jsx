@@ -29,8 +29,12 @@ function page() {
         <section className='relative w-full h-screen flex items-center justify-center'>
             <Image src={background} alt='background'  className='w-full h-full object-cover z-[-5]'/>
             <div className='absolute mt-60  md:mt-[230px] w-full max-w-[350px] bg-white/70  lg:max-w-[1280px] mb-40 flex flex-col gap-5  py-10 md:py-14 px-5 rounded'>
-                <h1 className='font- medium text-2xl md:text-5xl text-center'>Retreat In Newport County Mayo, Ireland <br></br>October 11th to 13th</h1>
-                <h1 className='font-bold text-2xl md:text-5xl  text-center mt-20 '>UNWIND, RECONNECT & FIND INNER PEACE</h1>
+                <h1 className='md:font-light text-xl md:text-5xl text-center'>Retreat In Newport County Mayo, Ireland <br></br>October 11th to 13th</h1>
+                <div className='flex flex-col md:flex-row items-center gap-3 mx-auto mt-10'>
+                <h1 className='font-bold text-2xl md:text-5xl  text-center md:mt-20 '>UNWIND,  </h1>
+                <h1 className='font-bold text-2xl md:text-5xl  text-center md:mt-20 '>RECONNECT & </h1>
+                <h1 className='font-bold text-2xl md:text-5xl  text-center md:mt-20 '>FIND INNER PEACE.</h1>
+                </div>
                 <h1 className='text-lg md:text-3xl text-center mb-5 italic'>Give yourself a chance to relax because you deserve it.</h1>
                 <Link href="#info" className='mx-auto'><button className='md:hover:scale-[1.03] mx-auto max-w-[300px] mt-5 px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Read More</button></Link>
                 {/* <p className='max-w-[1000px] mx-auto text-sm md:text-lg'>A weekend of well-being and reconnecting with nature in the serene countryside of Tiernaur, Nevins Newfield Inn, County Mayo, Ireland. This special weekend retreat offers a chance to reconnect with yourself & discover your inner light. Through yoga, meditation & mindfulness practices, you will learn tools to stay grounded & peaceful in a busy world.</p>
