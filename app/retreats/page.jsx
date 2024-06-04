@@ -28,15 +28,6 @@ function page() {
 
         <section className='relative w-full h-screen flex items-center justify-center'>
             <Image src={background} alt='background'  className='w-full h-full object-cover z-[-5]'/>
-            {/* <div className='absolute flex flex-col gap-5 bg-white/50 p-10 rounded'> */}
-                {/* <h1 className='font-bold text-5xl text-[#D37472]'>UNWIND, <span className='text-[#8C5233]'>RECONNECT</span> <span className='text-white'>& FIND INNER PEACE</span></h1> */}
-                {/* <h1 className='font-bold text-5xl text-[#D37472]'>UNWIND, RECONNECT & FIND INNER PEACE</h1> */}
-                {/* <h1 className='font-bold text-5xl text-white'>UNWIND, RECONNECT & FIND INNER PEACE</h1> */}
-                {/* <h1 className='font-bold text-5xl text-[#8C5233]'>UNWIND, RECONNECT & FIND INNER PEACE</h1> */}
-                {/* <h1 className='font-bold text-5xl text-black'>UNWIND, RECONNECT & FIND INNER PEACE</h1> */}
-                {/* <h1 className='font-bold text-5xl text-[#8C5233]'>RECONNECT</h1> */}
-                {/* <h1 className='font-bold text-5xl text-white'>GET INNER PEACE</h1> */}
-            {/* </div> */}
             <div className='absolute mt-60  md:mt-[230px] w-full max-w-[350px] bg-white/70  lg:max-w-[1280px] mb-40 flex flex-col gap-5  py-10 md:py-14 px-5 rounded'>
                 <h1 className='font- medium text-2xl md:text-5xl text-center'>Retreat In Newport County Mayo, Ireland <br></br>October 11th to 13th</h1>
                 <h1 className='font-bold text-2xl md:text-5xl  text-center mt-20 '>UNWIND, RECONNECT & FIND INNER PEACE</h1>
@@ -48,11 +39,11 @@ function page() {
             </div>
         </section>
 
-                <div id='info' className=' scroll-mt-[20px] h-screen flex flex-col justify-center items-center pt-[100px] pb-[80px]'>
-                    <p className='max-w-[1000px] mx-auto text-sm md:text-lg mb-7'><span className='font-semibold'>A weekend of well-being and reconnecting with nature</span> in the serene countryside of Tiernaur, Nevins Newfield Inn, County Mayo, Ireland. This special weekend retreat offers a chance to reconnect with yourself & discover your inner light. Through yoga, meditation & mindfulness practices, you will learn tools to stay grounded & peaceful in a busy world.</p>
-                    <p className='max-w-[1000px] mx-auto text-sm md:text-lg mb-7'><span className='font-semibold'>We will take you on a journey of deep relaxation and spiritual guidance</span>, whilst surrounded by the beautiful vast ocean, mountains & nature that County Mayo has to offer. The core concept of the retreat is to let go of unnecessary burdens & stress so that you connect with your inner power. Once connected, you gain a deeper understanding and clarity to find inner peace.</p>
-                    <p className='max-w-[1000px] mx-auto text-sm md:text-lg'><span className='font-semibold'>Hosted by the luxurious Nevins Newfield Inn</span>, we will make you feel at home, at peace & cared for, so that you can relax, unwind, let go, replenish & rejuvenate, all whilst connecting with your inner power.</p>
-                    <div className='flex justify-center items-center gap-10 mt-10 max-w-[1280px]'>
+                <div id='info' className=' scroll-mt-[20px] md:h-screen flex flex-col justify-center items-center pt-[100px] md:pb-[80px] px-5'>
+                    <p className='max-w-[1000px] mx-auto text-sm md:text-lg mb-7 px-2'><span className='font-semibold'>A weekend of well-being and reconnecting with nature</span> in the serene countryside of Tiernaur, Nevins Newfield Inn, County Mayo, Ireland. This special weekend retreat offers a chance to reconnect with yourself & discover your inner light. Through yoga, meditation & mindfulness practices, you will learn tools to stay grounded & peaceful in a busy world.</p>
+                    <p className='max-w-[1000px] mx-auto text-sm md:text-lg mb-7 px-2'><span className='font-semibold'>We will take you on a journey of deep relaxation and spiritual guidance</span>, whilst surrounded by the beautiful vast ocean, mountains & nature that County Mayo has to offer. The core concept of the retreat is to let go of unnecessary burdens & stress so that you connect with your inner power. Once connected, you gain a deeper understanding and clarity to find inner peace.</p>
+                    <p className='max-w-[1000px] mx-auto text-sm md:text-lg px-2'><span className='font-semibold'>Hosted by the luxurious Nevins Newfield Inn</span>, we will make you feel at home, at peace & cared for, so that you can relax, unwind, let go, replenish & rejuvenate, all whilst connecting with your inner power.</p>
+                    <div className='flex flex-col md:flex-row justify-center items-center gap-10 mt-10 max-w-[1280px]'>
                         <Image src={photo3} alt='photo' className='object-cover max-w-[350px] max-h-[350px] border-4 shadow-lg border-white'/>
                         <Image src={photo2} alt='photo' className='object-cover max-w-[350px] max-h-[280px] border-4 shadow-lg border-white'/>
                         <Image src={photo1} alt='photo' className='object-cover  max-w-[350px] max-h-[350px] border-4 shadow-lg border-white'/>
@@ -60,7 +51,7 @@ function page() {
                 </div>
         <section id='prices' className='flex flex-col justify-center items-center px-5 w-full scroll-mb-[2000px]'>
                 {/* <h1 className='font-bold text-center max-md:max-w-[300px]   text-2xl  md:text-3xl mt-40  mb-10'>PRICES</h1> */}
-                <h1 className='font-bold text-center max-md:max-w-[300px]   text-2xl  md:text-3xl mt-40  mb-5 text-[#623810]/85'>CHOOSE <span className='font-light'>THE PRICE & PACKAGE</span> THAT´S BETTER FOR YOU</h1>
+                <h1 className='font-bold text-center max-md:max-w-[350px]   text-2xl  md:text-3xl mt-40  mb-5 text-[#623810]/85'>CHOOSE <span className='font-light'>THE PRICE & PACKAGE</span> THAT´S BETTER FOR YOU</h1>
                 <p className='mb-10 md:text-xl font-normal text-center italic'>Early Bird Discount €150 if booked before 11th August 2024.</p>
                 <div className='w-full max-w-[1240px] flex flex-col md:flex-row items-center justify-center gap-8 py-7'>
                     <div className='bg-[#f5f0ec] gap-5 p-7 rounded-lg'>
@@ -136,14 +127,14 @@ function page() {
                 
         </section>
         <section className='max-w-[1200px] w-full'>
-            <h1 className='font-bold text-center max-md:max-w-[300px] text-[#623810]/85  text-2xl  md:text-3xl mt-40  mb-5'><span className='font-light'>EXPERIENCED GUIDANCE -</span> MEET THE TEAM</h1>
+            <h1 className='font-bold text-center mx-auto max-md:max-w-[350px] text-[#623810]/85  text-2xl  md:text-3xl mt-40  mb-5'><span className='font-light'>EXPERIENCED GUIDANCE <span className='max-md:hidden'>-</span></span> MEET THE TEAM</h1>
                 {/* <p className='mb-10 md:text-xl font-normal text-center'>The schedule may vary depending on weather and day to day activities</p> */}
-            <div className='flex justify-between items-start mt-40 w-full max-w-[1280px]'>
+            <div className='flex flex-col md:flex-row justify-between items-center md:items-start mt-20 md:mt-40 w-full max-w-[1280px]'>
                 <div>
-                    <h1 className='text-center mb-14 font-bold text-3xl text-[#623810]/85'>Meera</h1>
-                <Image src={meera} alt='meera-pic' className='object-cover max-w-[450px] max-h-[450px] rounded-full'/>
+                    <h1 className='text-center  mb-14 font-bold text-3xl text-[#623810]/85'>Meera</h1>
+                <Image src={meera} alt='meera-pic' className='object-cover max-w-[300px] max-h-[300px] md:max-w-[450px] md:max-h-[450px] rounded-full'/>
                 </div>
-                <div className='max-w-[600px] text-justify text-[16px]'>
+                <div className='max-w-[600px] text-justify text-[16px] max-md:mt-16 max-md:px-5'>
                     <p className='mb-5'><span className='font-semibold'>We are honored to welcome Meera, a radiant soul all the way from India, to guide us through this transformative weekend retreat.</span> As the owner of Diya Yoga, a revered yoga teacher training school in Goa, India, Meera brings with her a wealth of knowledge and experience in the ancient art of yoga. Meera will generously share her vast expertise, offering enlightening yogic philosophy classes, yoga nidra sessions, and profound meditations. Her teachings are designed to help you restore mental clarity, rejuvenate your physical, mental, emotional, and spiritual well-being, and cultivate a lasting sense of calmness and inner peace.</p>
                     <p className='mb-5'>Meera&apos;s warm-hearted presence and compassionate guidance will create a nurturing and supportive environment for your journey of self-discovery and inner transformation.</p>
                     <p className='mb-5'>Meera&apos;s journey has been deeply rooted in spirituality since her early years. Raised in the Osho International Ashram in Pune, she delved into both ancient Indian philosophy and modern therapeutic techniques, fostering a profound understanding of these diverse traditions. This foundational knowledge shaped her into a skilled practitioner of yoga, meditation, and various therapeutic modalities.</p>
@@ -152,32 +143,32 @@ function page() {
                     <p>Through retreats, courses, and one-on-one sessions, Meera has empowered countless individuals to deepen their yoga practice, cultivate heightened self-awareness, and uncover an abundant reservoir of love and inner peace.</p>
                 </div>
             </div>
-            <div className='flex justify-between items-start mt-40'>
-                <div className='max-w-[600px] text-justify text-[16px]'>
+            <div className='flex flex-col-reverse md:flex-row justify-between items-center md:items-start mt-40'>
+                <div className='max-w-[600px] text-justify text-[16px] max-md:mt-16 max-md:px-5'>
                     <p className='mb-5'><span className='font-semibold'>Hannah Nevin, founder of Eagna, a holistic pursuit focusing on Yoga, Reiki & Sound Healing.</span> Hannah has solo traveled the world on a journey of self discovery, transformation & holistic healing. Hannah has trained and teaches at Diya Yoga in Goa, India, Hannah’s classes are perfect to restore balance in your physical, mental, emotional & energetic health. Hannah merges together techniques from multiple traditions, creating a harmonious blend of asana, pranayama, mantras, mudras, meditation, yogic philosophy, advanced anatomy & alignment in her classes. She will guide you through invigorating Hatha morning practice, along with bringing you on deeply relaxing journeys through yin & restorative yoga. She will compliment these practices using reiki, an energetic healing modality, along with sound healing to create a comforting, profound & tranquil experience. Emerge from these transformative experiences feeling rejuvenated, balanced, and aligned as you nurture your body, mind & soul.</p>
                     <p className='mb-5'>Hannah embraces yoga as a way of life, not only through asanas, but through her way of living, leading her to become a dedicated teacher & practitioner. Through her dedication to helping others connect with & heal themselves, Hannah uplifts those who cross her path.</p>
                     <p className='mb-5'>A budding entrepreneur, Hannah is present to listen, to hold space & be there for you before, during & after the weekend ensuring your optimum comfort, feelings of safety, security & peace during this special weekend</p>
                 </div>  
                 <div>
                     <h1 className='text-center mb-14 font-bold text-3xl text-[#623810]/85'>Hannah</h1>
-                <Image src={hannah} alt='meera-pic' className='object-cover max-w-[450px] max-h-[450px] rounded-full'/>
+                <Image src={hannah} alt='meera-pic' className='object-cover max-w-[300px] max-h-[300px] md:max-w-[450px] md:max-h-[450px] rounded-full '/>
                 </div>
             </div>
 
         </section>
 
        
-        <section className='max-w-[1000px] w-full'>
-            <h1 className='font-light    text-center max-md:max-w-[300px] text-[#623810]/85  text-2xl  md:text-3xl mt-[250px]  mb-5'>ACCOMODATION & DINNER</h1>
-            <p className='mb-5 mt-20'><span className='font-semibold'>We will be hosted by the award-winning, Nevins Newfield Inn,</span> who proudly assert themselves as the: “Home of Hospitality.” The hotel is set amid beautiful Irish nature overlooking the amazing islands of Clew Bay & Croagh Patrick, whilst the Great Western Greenway & the Nephin Mountains sit peacefully behind the premises. Nevins ensure to go above and beyond, regarding the standard of food & beverages they provide using only fresh & locally sourced produce.</p>
+        <section className='max-w-[1000px] w-full max-md:px-5 max-md:text-justify'>
+            <h1 className='font-light mx-auto  text-center max-md:max-w-[350px] text-[#623810]/85  text-2xl  md:text-3xl mt-[250px]  mb-5'>ACCOMODATION & DINNER</h1>
+            <p className='mb-5 mt-20 '><span className='font-semibold'>We will be hosted by the award-winning, Nevins Newfield Inn,</span> who proudly assert themselves as the: “Home of Hospitality.” The hotel is set amid beautiful Irish nature overlooking the amazing islands of Clew Bay & Croagh Patrick, whilst the Great Western Greenway & the Nephin Mountains sit peacefully behind the premises. Nevins ensure to go above and beyond, regarding the standard of food & beverages they provide using only fresh & locally sourced produce.</p>
             <p className='mb-5'>Nevin’s has recently renovated, luxurious bedrooms that feature en suites, double & single beds, televisions with satellite channels, tea & coffee facilities, free WIFI internet access, hairdryers, iron, iron boards & complimentary toiletries. Their guest bedrooms have been designed for ultimate comfort and relaxation.</p>
             <p className='mb-5'>Nevins ensures to provide you a relaxing & revitalizing experience throughout your stay, making you feel at home every step of the way.</p>
         </section>
         
         
-        <section className='max-w-[1280px] w-full flex flex-col items-center'>
+        <section className='max-w-[1280px] w-full flex flex-col items-center px-5'>
             <h1 className='font-light text-center max-md:max-w-[300px] text-[#623810]/85  text-2xl  md:text-3xl mt-40  mb-5'>BONUS OFFERS</h1>
-            <div className='bg-[#f5f0ec] gap-5 p-7 rounded-lg max-w-[600px] mt-10 italic'>
+            <div className='bg-[#f5f0ec] gap-5 p-7 rounded-lg max-w-[600px] mt-10 italic '>
                 <p className='mb-5'>✅ Discounted Massage Therapy with Specialist Pat Hoban.</p>
                 <p className='mb-5'>✅  Bikes available to rent to cycle the Great Western Greenway.</p>
                 <p className='mb-5'>✅  Visit the amazing Achill Island or town of Westport which is voted “Best Place to live in Ireland.”</p>
@@ -185,11 +176,11 @@ function page() {
                 <p className=''>✅  Private Reiki or Sound Healing sessions with Hannah.</p>
             </div>
             
-            <div className='max-w-[1050px] text-left pb-14 '>
-            <h1 className='font-light text-center max-md:max-w-[300px] text-[#623810]/85  text-2xl  md:text-3xl mt-40  mb-5'>EXTRA BOOKING</h1>
+            <div className='max-w-[1050px] text-justify md:text-left pb-14 mx-auto'>
+            <h1 className='font-light text-center max-md:max-w-[350px] text-[#623810]/85  text-2xl  md:text-3xl mt-40  mb-5'>EXTRA BOOKING</h1>
             <p className='mt-10'>If you would like to extend your trip, either before or after the retreat, please reach out to avail of a discounted accommodation package at Nevins Newfield Inn.</p>
             <p className='mt-5'>For reservations and/or questions about the weekend, please email hannahnevin@gmail.com or book through this <Link href="#" className='underline font-semibold'>link.</Link></p>
-            <p className='mt-36 text-center font-light text-3xl  leading-relaxed tracking-tight'>We look forward to welcoming you on your journey to inner peace, where every moment promises to rejuvenate your body, mind, and spirit.<br></br> <span className='font-bold'>Join us</span> <span className='font-bold'>in County Mayo, Ireland </span><span className='font-bold '>for an unforgettable retreat experience</span> filled with tranquility, connection, and self-discovery.</p>
+            <p className='mt-36 text-center font-light text-xl md:text-3xl  leading-relaxed tracking-tight'>We look forward to welcoming you on your journey to inner peace, where every moment promises to rejuvenate your body, mind, and spirit.<br></br> <span className='font-bold'>Join us</span> <span className='font-bold'>in County Mayo, Ireland </span><span className='font-bold '>for an unforgettable retreat experience</span> filled with tranquility, connection, and self-discovery.</p>
             </div>
             <button className='mb-40 px-7 py-5 bg-[#623810]/85 hover:bg-[#623810]/95 hover:text-white/90 rounded text-white  font-medium min-w-[300px] transition duration-300'>Join The Retreat</button>
         </section>
