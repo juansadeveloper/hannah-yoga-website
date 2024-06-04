@@ -169,7 +169,7 @@ function page() {
         
         <section className='max-w-[1280px] w-full flex flex-col items-center px-5'>
             <h1 className='font-light text-center max-md:max-w-[300px] text-[#623810]/85  text-2xl  md:text-3xl mt-40  mb-5'>BONUS OFFERS</h1>
-            <div className='bg-[#f5f0ec] gap-5 p-7 rounded-lg max-w-[600px] mt-10 italic '>
+            <div className='bg-[#f5f0ec] gap-5 p-7 rounded-lg w-full max-w-[1000px] mt-10 italic '>
                 <p className='mb-5'>✅ Discounted Massage Therapy with Specialist Pat Hoban.</p>
                 <p className='mb-5'>✅  Bikes available to rent to cycle the Great Western Greenway.</p>
                 <p className='mb-5'>✅  Visit the amazing Achill Island or town of Westport which is voted “Best Place to live in Ireland.”</p>
@@ -177,11 +177,11 @@ function page() {
                 <p className=''>✅  Private Reiki or Sound Healing sessions with Hannah.</p>
             </div>
             
-            <div className='max-w-[1050px] text-justify md:text-left pb-14 mx-auto'>
+            <div className='max-w-[1000px] text-justify md:text-left pb-14 mx-auto'>
             <h1 className='font-light text-center max-md:max-w-[350px] text-[#623810]/85  text-2xl  md:text-3xl mt-40  mb-5'>EXTRA BOOKING</h1>
             <p className='mt-10'>If you would like to extend your trip, either before or after the retreat, please reach out to avail of a discounted accommodation package at Nevins Newfield Inn.</p>
             <p className='mt-5'>For reservations and/or questions about the weekend, please email hannahnevin@gmail.com or book through this <Link href="#" className='underline font-semibold'>link.</Link></p>
-            <p className='mt-36 text-center font-light text-xl md:text-3xl  leading-relaxed tracking-tight'>We look forward to welcoming you on your journey to inner peace, where every moment promises to rejuvenate your body, mind, and spirit.<br></br> <span className='font-bold'>Join us</span> <span className='font-bold'>in County Mayo, Ireland </span><span className='font-bold '>for an unforgettable retreat experience</span> filled with tranquility, connection, and self-discovery.</p>
+            <p className='mt-36 text-center font-light text-xl  md:text-[30px] leading-relaxed tracking-tight'>We look forward to welcoming you on your journey to inner peace, where every moment promises to rejuvenate your body, mind, and spirit.<br></br> <span className='font-bold'>Join us</span> <span className='font-bold'>in County Mayo, Ireland </span><span className='font-bold '>for an unforgettable retreat experience</span> filled with tranquility, connection, and self-discovery.</p>
             </div>
             <button className='mb-20 md:mb-40 px-7 py-5 bg-[#623810]/85 hover:bg-[#623810]/95 hover:text-white/90 rounded text-white  font-medium min-w-[300px] transition duration-300'>Join The Retreat</button>
         </section>
