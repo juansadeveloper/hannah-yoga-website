@@ -35,7 +35,7 @@ function page() {
                 <h1 className='font-bold text-2xl md:text-5xl  text-center md:mt-20 '>RECONNECT & </h1>
                 <h1 className='font-bold text-2xl md:text-5xl  text-center md:mt-20 '>FIND INNER PEACE.</h1>
                 </div>
-                <h1 className='text-lg md:text-3xl text-center mb-5 italic'>Give yourself a chance to relax because you deserve it.</h1>
+                <h1 className='text-lg md:text-3xl text-center mb-5 font-light'>Give yourself a chance to relax because you deserve it.</h1>
                 <Link href="#info" className='mx-auto'><button className='md:hover:scale-[1.03] mx-auto max-w-[300px] mt-5 px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Read More</button></Link>
                 {/* <p className='max-w-[1000px] mx-auto text-sm md:text-lg'>A weekend of well-being and reconnecting with nature in the serene countryside of Tiernaur, Nevins Newfield Inn, County Mayo, Ireland. This special weekend retreat offers a chance to reconnect with yourself & discover your inner light. Through yoga, meditation & mindfulness practices, you will learn tools to stay grounded & peaceful in a busy world.</p>
                 <p className='max-w-[1000px] mx-auto text-sm md:text-lg'>We will take you on a journey of deep relaxation and spiritual guidance, whilst surrounded by the beautiful vast ocean, mountains & nature that County Mayo has to offer. The core concept of the retreat is to let go of unnecessary burdens & stress so that you connect with your inner power. Once connected, you gain a deeper understanding and clarity to find inner peace.</p>
