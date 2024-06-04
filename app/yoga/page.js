@@ -99,28 +99,28 @@ function Page() {
                 </div>
                 <h1 className='font-bold text-center max-md:max-w-[300px]  text-2xl  md:text-3xl mt-40  mb-10'>CHOOSE THE TYPE OF YOGA THAT YOU PREFER</h1>
                 <div className='w-full max-w-[1240px] flex flex-col md:flex-row items-center justify-center gap-5 py-7'>
-                    <div className='bg-[#f5f0ec] gap-5 p-7 rounded-lg flex-col items-center md:hover:scale-[1.03] cursor-pointer transition duration-500 shadow hover:border hover:shadow-xl'>
+                    <div className='bg-[#f5f0ec] gap-5 p-7 rounded-lg flex-col items-center  cursor-pointer transition duration-500 shadow  max-md:hover:border  max-md:hover:shadow-xl md:hover:scale-[1.03]'>
                         <div>
                             <h1 className='font-bold text-2xl mb-10'>Hatha Yoga</h1>
                             <p className='max-w-[550px] mb-5 font-extralight'>Hatha yoga classes typically include a combination of asanas (physical  postures) and pranayama (breathwork), with an emphasis on relaxation and  stress reduction. The practice aims to create a sense of harmony and  unity within the body, mind, and spirit.</p>
                         </div>  
                         <button className='mt-5 px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book Hatha Session</button>
                     </div>
-                    <div className='bg-[#f5f0ec] gap-5 p-7 rounded-lg md:hover:scale-[1.03] cursor-pointer transition duration-500 shadow hover:border hover:shadow-xl'>
+                    <div className='bg-[#f5f0ec] gap-5 p-7 rounded-lg  cursor-pointer transition duration-500 shadow  max-md:hover:border  max-md:hover:shadow-xl md:hover:scale-[1.03]'>
                         <div>
                             <h1 className='font-bold text-2xl mb-10'>Vinyasa Yoga</h1>
                             <p className='max-w-[550px] mb-5 font-extralight'>A dynamic style of yoga that synchronizes movement with  breath. In Vinyasa practice, poses flow seamlessly from one to another,  creating a continuous, fluid sequence. Each movement is coordinated, resulting in a rhythmic and meditative  practice.</p>
                         </div>
                         <button className='mt-5 px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book Vinyasa Session</button>
                     </div>
-                    <div className='bg-[#f5f0ec] gap-5 p-7 rounded-lg md:hover:scale-[1.03] cursor-pointer transition duration-500 shadow hover:border hover:shadow-xl'>
+                    <div className='bg-[#f5f0ec] gap-5 p-7 rounded-lg cursor-pointer transition duration-500 shadow  max-md:hover:border  max-md:hover:shadow-xl md:hover:scale-[1.03]'>
                         <div>
                             <h1 className='font-bold text-2xl mb-10'>Restorative Yoga</h1>
                             <p className='max-w-[550px] mb-5 font-extralight'>Restorative yoga is a gentle and nurturing style focused on relaxation  and deep rest. In a restorative yoga practice, props like bolsters,  blankets, and blocks are used to support the body in passive poses held  for extended periods, often up to 20 minutes or more. </p>
                         </div>
                         <button className='mt-5 px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book restorative session</button>
                     </div>
-                    <div className='bg-[#f5f0ec] gap-5 p-7 rounded-lg md:hover:scale-[1.03] cursor-pointer transition duration-500 shadow hover:border hover:shadow-xl'>
+                    <div className='bg-[#f5f0ec] gap-5 p-7 rounded-lg  cursor-pointer transition duration-500 shadow  max-md:hover:border  max-md:hover:shadow-xl md:hover:scale-[1.03]'>
                         <div>
                             <h1 className='font-bold text-2xl mb-10'>Ying Yoga</h1>
                             <p className='max-w-[550px] mb-5 font-extralight'>In Yin practice, poses are held for longer durations, typically ranging  from one to five minutes or more, allowing for a gentle, sustained  stretch. Yin focuses on relaxation  and surrendering into each posture, encouraging practitioners to cultivate mindfulness.</p>
