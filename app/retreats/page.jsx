@@ -194,7 +194,7 @@ function page() {
         <section className='max-w-[1000px] w-full flex flex-col items-center '>
         <h1 className='font-light text-center max-md:max-w-[300px] text-[#623810]/85  text-2xl  md:text-3xl mt-20 md:mt-36  mb-5'>LOCATION</h1>
         {/* <p className='font-light text-center max-md:max-w-[300px] text-[#623810]/85  text-2xl  md:text-3xl mb-5'>Find us in google maps</p> */}
-            <div className='flex justify-center items-center my-10 md:h-[600px] w-full px-5'>
+            <div className='flex justify-center items-center my-10 md:h-[600px] w-full max-md:px-5'>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.5758093875834!2d-9.692228123015141!3d53.90374313287146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485970d08065b9ff%3A0xbc43da9cd1e6e9b2!2sNevin&#39;s%20Newfield%20Inn!5e0!3m2!1sen!2snl!4v1717489969380!5m2!1sen!2snl" 
                 // width="600" 
                 // height="450" 
@@ -204,7 +204,7 @@ function page() {
                 loading="lazy" 
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <p className='px-5 mt-20 text-center font-light text-xl  md:text-[30px] leading-relaxed tracking-tight'>We look forward to welcoming you on your journey to inner peace, where every moment promises to rejuvenate your body, mind, and spirit.<br></br> <span className='font-bold'>Join us</span> <span className='font-bold'>in County Mayo, Ireland </span><span className='font-bold '>for an unforgettable retreat experience</span> filled with tranquility, connection, and self-discovery.</p>
+            <p className='max-md:px-5 mt-20 text-center font-light text-xl  md:text-[30px] leading-relaxed tracking-tight'>We look forward to welcoming you on your journey to inner peace, where every moment promises to rejuvenate your body, mind, and spirit.<br></br> <span className='font-bold'>Join us</span> <span className='font-bold'>in County Mayo, Ireland </span><span className='font-bold '>for an unforgettable retreat experience</span> filled with tranquility, connection, and self-discovery.</p>
             <button className='mb-20 mt-20 md:mb-40 px-7 py-5 bg-[#623810]/85 hover:bg-[#623810]/95 hover:text-white/90 rounded text-white  font-medium min-w-[300px] transition duration-300'>Join The Retreat</button>
         </section>
 
