@@ -53,15 +53,15 @@ function Hero() {
         <Image src={background} alt='background'  className='object-cover z-[-5] absolute max-md:top-[5400px]' />
         <Image src={background} alt='background'  className='object-cover z-[-5] absolute max-md:top-[5650px]' /> */}
 
-        <div className=' flex flex-col  justify-start mt-20 '>
-          {/* <Image src={mainpic} alt='hero-image'  className=' object-cover w-[980px] h-[450px] md:h-[550px] border-[10px] shadow-box border-white mt-20 md:mt-32'></Image> */}
-          {/* <p className='max-w-[800px] text-center text-2xl font-semibold bg-white/20 rounded p-10'>Remember when the power of love overcomes the love of power, the world will know peace.<br></br> This starts within. This begins with you.</p> */}
-          <div className='p-5  rounded-lg mt-[500px] md:mt-[700px] flex max-md:flex-col items-center md:gap-3 shadow-box'>
-          <p className=' text-center text-lg md:text-3xl font-bold italic text-white rounded '>EMBRACE A BETTER LIFE THROUGH YOGA PRACTICE.</p>
-          <p className=' text-center text-lg md:text-3xl font-bold italic text-white rounded '>EMBRACE A BETTER YOU.</p>
-          {/* <p className=' text-center text-lg md:text-3xl font-bold italic text-[#E6E3E3] rounded '>EMBRACE A BETTER YOU.</p> */}
-        <Link href="#about"><IoIosArrowDown size={47} className='ml-5 max-md:hidden  text-accent/50 py-3 px-2 bg-white border rounded-full hover:border-accent/50 hover:text-accent transition duration-300'/></Link>
-        </div>
+        <div className=' flex flex-col  justify-start md:items-center mt-20 '>
+            {/* <Image src={mainpic} alt='hero-image'  className=' object-cover w-[980px] h-[450px] md:h-[550px] border-[10px] shadow-box border-white mt-20 md:mt-32'></Image> */}
+            {/* <p className='max-w-[800px] text-center text-2xl font-semibold bg-white/20 rounded p-10'>Remember when the power of love overcomes the love of power, the world will know peace.<br></br> This starts within. This begins with you.</p> */}
+            <div className='p-5 rounded-lg mt-[500px] md:mt-[700px] flex max-md:flex-col items-center md:gap-3 md:mb-10'>
+              <p className=' text-center text-lg md:text-3xl font-light italic text-white/85 rounded '>EMBRACE A BETTER LIFE THROUGH YOGA PRACTICE.</p>
+              <p className=' text-center text-lg md:text-3xl font-light italic text-white/85 /85rounded '>EMBRACE A BETTER YOU.</p>
+              {/* <p className=' text-center text-lg md:text-3xl font-bold italic text-[#E6E3E3] rounded '>EMBRACE A BETTER YOU.</p> */}
+            </div>
+              {/* <Link href="#about"><IoIosArrowDown size={47} className='ml-5 max-md:hidden  text-accent/50 py-3 px-2 bg-white border rounded-full hover:border-accent/50 hover:text-accent transition duration-300'/></Link> */}
         </div>
         {/* <About />
         <Join />
