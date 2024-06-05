@@ -21,6 +21,7 @@ import { AiOutlineClose } from "react-icons/ai"
 import { AiOutlineInstagram } from "react-icons/ai";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
+import { RiMenu5Fill } from "react-icons/ri";
 
 
 
@@ -54,7 +55,7 @@ function Navbar() {
                 <Link href="/retreats"><li className='hover:text-accent transition duration-300 bg-white/85 border border-transparent hover:border hover:border-accent/50 hover:bg-white rounded px-4 py-2 cursor-pointer'>RETREATS</li></Link>
             </ul>
             {/* <IoMenuSharp size={30} className='hover:cursor-pointer lg:hidden'/> */}
-        {nav ? <AiOutlineClose size={30} className='mlg:hidden cursor-pointer text-accent z-10' onClick={toggleNav}/> : <IoMenuSharp size={30} className='md:hidden cursor-pointer text-accent' onClick={toggleNav} />}
+        {nav ? <AiOutlineClose size={30} className='mlg:hidden cursor-pointer text-accent z-10' onClick={toggleNav}/> : <RiMenu5Fill  size={26} className='md:hidden cursor-pointer text-accent' onClick={toggleNav} />}
         {nav ? 
             <ul className='lg:hidden absolute top-0 left-0 flex flex-col w-full z-0 bg-gradient-to-b from-[#EADDD4] to-[#F1EDEA]' onClick={toggleNav}>
                 <div className='justify-center items-center flex flex-col h-screen pb-20  text-accent text-xl px-5'>
