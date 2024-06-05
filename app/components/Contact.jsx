@@ -29,7 +29,7 @@ function Contact() {
                 <Link href="https://www.instagram.com/eagnawithhannah/" target='blank'><p className='hover:text-accent'>@eagnawithhannah</p></Link>
             </div>
         </div>
-        <div id='email' className='flex flex-col items-center mt-20 w-full'>
+        <div id='email' className='flex flex-col items-center mt-20 w-full scroll-mt-[120px]'>
             <p className='text-justify mb-3 text-accent font-medium text-lg md:text-xl'>Get in touch</p> 
             <p className=' mb-20 max-md:text-base font-light'>Alternatively you can fill out the form below, and Hannah will get back to you as soon as possible.</p>
             <div className=''>
