@@ -56,7 +56,7 @@ function page() {
         <section id='prices' className='flex flex-col justify-center items-center px-5 w-full scroll-mb-[2000px]'>
                 {/* <h1 className='font-bold text-center max-md:max-w-[300px]   text-2xl  md:text-3xl mt-40  mb-10'>PRICES</h1> */}
                 <h1 className='font-light text-center max-md:max-w-[350px]   text-2xl  md:text-3xl mt-40  mb-5 text-[#623810]/85'>CHOOSE <span className='font-light'>THE PRICE & PACKAGE</span> THAT&apos;S BETTER FOR YOU</h1>
-                <p className='mb-10 md:text-xl font-normal text-center italic'>Early Bird Discount €150 if booked before 11th August 2024.</p>
+                <p className='mb-10 md:text-xl font-normal text-center '>Early Bird Discount €150 if booked before 11th August 2024.</p>
                 <div className='w-full max-w-[1240px] flex flex-col md:flex-row items-center justify-center gap-8 py-7'>
                     <div className='bg-[#f5f0ec] gap-5 p-7 rounded-lg w-full max-w-[400px]'>
                         <div>
@@ -83,7 +83,7 @@ function page() {
                 </div>
 
                 <h1 className='font-light text-center max-md:max-w-[300px] text-[#623810]/85  text-2xl  md:text-3xl mt-40  mb-5'>RETREAT SCHEDULE</h1>
-                <p className='mb-10 md:text-xl font-normal text-center italic'>The schedule may vary depending on weather and day to day activities</p>
+                <p className='mb-10 md:text-xl font-normal text-center '>The schedule may vary depending on weather and day to day activities</p>
                 <div className='w-full max-w-[1240px] flex flex-col md:flex-row items-start justify-center gap-8 py-7'>
                     <div className='bg-[#f5f0ec]  p-7 rounded-lg'>
                         <div className='max-w-[350px]'>
