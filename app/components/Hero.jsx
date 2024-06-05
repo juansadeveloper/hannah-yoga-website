@@ -32,7 +32,7 @@ function Hero() {
   return (
     <div className='relative flex flex-col justify-center items-center h-screen px-5'>
         
-        <Image src={background} alt='background' fill={true}  className='object-cover z-[-5] absolute top-0' />
+        <Image src={background} alt='background'   className='object-cover h-full z-[-5] absolute top-0' />
         {/* <Image src={background} alt='background'  className='object-cover z-[-5] absolute max-md:top-[300px] md:top-[500px]  lg:top-[1000px]' />
         <Image src={background} alt='background'  className='object-cover z-[-5] absolute max-md:top-[600px] md:top-[] lg:top-[2000px]' />
         <Image src={background} alt='background'  className='object-cover z-[-5] absolute max-md:top-[900px] md:top-[] lg:top-[3000px]' />
