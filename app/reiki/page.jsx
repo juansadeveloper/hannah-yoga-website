@@ -81,7 +81,7 @@ function Page() {
       
         <div className='flex flex-col justify-center items-center h-screen w-full mt-[1650px]  md:mt-[1350px] text-center'>
             <h1 className='text-accent max-w-[1000px] text-2xl md:text-5xl font-bold z-10'>What is Reiki?</h1>
-            <p className=' max-w-[1000px]  font-base text-justify md:text-xl md:text-center my-20 px-5'>Reiki is a Japanese healing technique that involves the transfer of universal energy through the practitioner&apos;s palms to the recipient. It&apos;s based on the idea that an unseen &quot;life force energy&quot; flows through us and is what causes us to be alive. If one&apos;s &quot;life force energy&quot; is low, then we are more likely to get sick or feel stress, and if it&apos;s high, we are more capable of being happy and healthy.</p>
+            <p className=' max-w-[1000px]  font-base text-justify md:text-xl md:text-center mt-10 mb-20 md:my-20 px-5'>Reiki is a Japanese healing technique that involves the transfer of universal energy through the practitioner&apos;s palms to the recipient. It&apos;s based on the idea that an unseen &quot;life force energy&quot; flows through us and is what causes us to be alive. If one&apos;s &quot;life force energy&quot; is low, then we are more likely to get sick or feel stress, and if it&apos;s high, we are more capable of being happy and healthy.</p>
             <div className='flex max-md:flex-col gap-5 px-5'>
                 <Image src={one} alt='' className='md:w-[450px] md:h-[450px] w-full h-[350px] object-cover border-[6px] border-white shadow-box'></Image>
                 <Image src={two} alt='' className='md:w-[450px] md:h-[450px] w-full h-[350px]] object-cover border-[6px] border-white shadow-box'></Image>
@@ -106,7 +106,7 @@ function Page() {
 
             <div className=' text-xl font-base text-center mt-[30px] mb-[100px] bg-white/80 max-w-[1000px] py-7 px-5 md:p-20 rounded'>
                 <h1 className='text-accent font-bold mb-5 text-xl max-md:mt-10 md:text-2xl'>CONSIDER THIS</h1>
-                <p className='text-center md:text-xl md:text-center'>Reiki can be a powerful complement to sound healing and yoga practice, as it helps to balance the body&apos;s energy centers, promote emotional and physical well-being, and deepen the connection to one&apos;s inner self. </p>
+                <p className='text-center text-lg md:text-xl md:text-center'>Reiki can be a powerful complement to sound healing and yoga practice, as it helps to balance the body&apos;s energy centers, promote emotional and physical well-being, and deepen the connection to one&apos;s inner self. </p>
             </div>
 
 
