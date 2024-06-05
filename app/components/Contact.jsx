@@ -15,18 +15,18 @@ function Contact() {
         <p className=' mb-20 max-w-[800px] max-md:text-base font-light'>Whether you have questions about her yoga sessions, want to book a class, or simply want to connect, please use the information below to get in touch with Hannah.</p>
         {/* <p className='text-justify mb-3 text-accent font-medium text-xl mt-10'>Contact Information</p> */}
         <div className='flex flex-col items-start gap-5'>
-            <div  className='flex justify-center items-center gap-5 hover:scale-[1.05]  cursor-pointer transition duration-300'>
+            <div  className='flex justify-center items-center gap-5   cursor-pointer transition duration-300'>
                 <Link target="_blank" href="https://api.whatsapp.com/send?phone=353877622193&text=Hello+Hannah,+ I´m interested+in+your+yoga´s+services&app_absent=0"><FaWhatsapp size={30} className='text-accent'/></Link>
-                <p className=''>+353877622193</p>
+                <p className='hover:text-accent'>+353877622193</p>
             </div> 
-            <div  className='flex justify-center items-center gap-5 hover:scale-[1.05]  cursor-pointer transition duration-300'>
+            <div  className='flex justify-center items-center gap-5     transition duration-300'>
                 <MdOutlineEmail size={30} className='text-accent'/>
                 <p className=''>eagnawithhannah@gmail.com</p>
             </div> 
             {/* <p className='text-justify mb-3 text-accent font-medium text-xl mt-10'>Connect on Social Media</p> */}
-            <div className='flex justify-start items-center gap-5 hover:scale-[1.05]  cursor-pointer transition duration-300'>
+            <div className='flex justify-start items-center gap-5   cursor-pointer transition duration-300'>
                 <Link href="https://www.instagram.com/eagnawithhannah/"><AiOutlineInstagram size={30} className='text-accent'/></Link>
-                <Link href="https://www.instagram.com/eagnawithhannah/"><p className=''>@eagnawithhannah</p></Link>
+                <Link href="https://www.instagram.com/eagnawithhannah/" target='blank'><p className='hover:text-accent'>@eagnawithhannah</p></Link>
             </div>
         </div>
         <div className='flex flex-col items-center mt-20 w-full'>

@@ -27,9 +27,9 @@ function SoundHealing() {
         <div className='w-full h-[80px] bg-[#F4E9E0] z-20 fixed flex items-center justify-center px-5'>
                 <div className='flex items-center justify-between  w-full max-w-[1500px]'>
                     {/* <Link href="/"><div className='text-[#623810]/85 font-light  md:text-[24px] hover:scale-[1.05] transition duration-300 max-md:hidden'><span className='font-semibold md:text-[24px]'>EAGNA</span> WITH HANNAH</div></Link> */}
-                    <div className='flex flex-col items-start md:flex-row md:gap-3'>
-                        <Link href="/"><div className='text-[#623810]/85 font-light text-[16px]  md:text-[24px] hover:scale-[1.05] transition duration-300 '><span className='text-[16px] font-semibold md:text-[24px]'>SOUND HEALING</span> </div></Link>
-                        <Link href="/"><div className='text-[#623810]/85 font-light text-[16px]  md:text-[24px] hover:scale-[1.05] transition duration-300 '><span className='text-[16px] font-semibold md:text-[24px]'></span> WITH HANNAH</div></Link>
+                    <div className='flex flex-col items-start md:flex-row md:gap-3 hover:scale-[1.05] transition duration-300'>
+                        <Link href="/"><div className='text-[#623810]/85 font-light text-[16px]  md:text-[24px]  '><span className='text-[16px] font-semibold md:text-[24px]'>SOUND HEALING</span> </div></Link>
+                        <Link href="/"><div className='text-[#623810]/85 font-light text-[16px]  md:text-[24px]  '><span className='text-[16px] font-semibold md:text-[24px]'></span> WITH HANNAH</div></Link>
                     </div>
                     <div className='flex max-md:flex-col md:gap-5 items-center'>
                         <h1 className='max-md:hidden text-[15px] md:text-[24px] font-bold text-[#623810]/85 md:hidden'>SOUND HEALING</h1>
@@ -117,7 +117,7 @@ function SoundHealing() {
             <div className='border py-7 px-5 md:p-20 rounded w-full bg-[#f5f0ec]'>
                     <h1 className='text-[#623810]/85 text-2xl md:text-5xl font-bold z-10  md:leading-[50px] text-center'>SOUND HEALING<span className='italic font-light'> with Hannah</span></h1>
                     {/* <p className='text-[#623810]/85  font-base text-justify md:text-xl md:text-center my-20'>Discover the transformative power of yoga with personalized guidance from Hannah. Whether you&apos;re a beginner looking to start your yoga journey or an experienced practitioner aiming to deepen your practice, Hannah offers both private and group sessions tailored to meet your individual needs.</p> */}
-                </div>
+            </div>
 
             <h1 className='text-accent max-w-[1000px] text-xl md:text-5xl font-bold z-10 mb-20 md:leading-[70px] text-center mt-20 md:mt-40'>Trained by the best instructors at <span className='italic font-light'> Academy of Sound Healing</span> <br></br>in India.</h1>
 
