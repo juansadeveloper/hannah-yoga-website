@@ -12,6 +12,7 @@ import three from "../../public/about/three.jpg"
 
 
 
+
 function About() {
 
     const [toggleOne, setToggleOne] = useState(false)
@@ -51,6 +52,7 @@ function About() {
 <main className='px-5'>
     <div>
         <div id="about" className='bg-[#F0EDEA] px-5 mt-20 md:mt-40 scroll-mt-[130px] md:scroll-mt-[120px] text-center w-full max-w-[1080px] flex flex-col justify-center mx-auto p-5 md:p-10 bg-white/85  rounded-lg  '>
+   
     
     
             {/* <Image src={background} alt='background' fill={true} className='object-cover z-[-5]' /> */}
@@ -64,8 +66,6 @@ function About() {
                     <Image src={three} alt='' className='object-cover w-[300px] h-[300px] border-[6px] border-white shadow-box'/>
                 </div>
             </div>
-    
-    
             
     
     
