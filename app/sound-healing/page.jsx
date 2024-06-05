@@ -24,30 +24,30 @@ function SoundHealing() {
 
         {/* <Navbar /> */}
 
-        <div className='w-full h-[80px] bg-[#F4E9E0] z-20 fixed flex items-center justify-center px-5'>
+        <div className='w-full h-[80px] bg-[#F4E9E0] z-20 fixed flex flex-col items-center justify-center px-5'>
                 <div className='flex items-center justify-between  w-full max-w-[1500px]'>
                     {/* <Link href="/"><div className='text-[#623810]/85 font-light  md:text-[24px] hover:scale-[1.05] transition duration-300 max-md:hidden'><span className='font-semibold md:text-[24px]'>EAGNA</span> WITH HANNAH</div></Link> */}
                     <div className='flex flex-col items-start md:flex-row md:gap-3 hover:scale-[1.05] transition duration-300'>
-                        <Link href="/"><div className='text-[#623810]/85 font-light text-[16px]  md:text-[24px]  '><span className='text-[16px] font-semibold md:text-[24px]'>SOUND HEALING</span> </div></Link>
-                        <Link href="/"><div className='text-[#623810]/85 font-light text-[16px]  md:text-[24px]  '><span className='text-[16px] font-semibold md:text-[24px]'></span> WITH HANNAH</div></Link>
+                        <Link href="/"><div className='text-[#623810]/85 font-light text-[16px]  md:text-[24px]  '><span className='text-[16px] font-semibold md:text-[24px]'>EAGNA </span> WITH HANNAH </div></Link>
                     </div>
-                    <div className='flex max-md:flex-col md:gap-5 items-center'>
-                        <h1 className='max-md:hidden text-[15px] md:text-[24px] font-bold text-[#623810]/85 md:hidden'>SOUND HEALING</h1>
+                    <div className='flex max-md:flex-col md:gap-5 items-center md:min-w-[450px]'>
+                        <h1 className='max-md:hidden text-[15px] md:text-[24px] font-bold text-[#623810]/85 w-full'>SOUND HEALING</h1>
                         <button className='w-full px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book a session</button>
                         {/* <button className='px-3 py-2 bg-white/70 text-[#623810]  hover:bg-[#623810]/85 hover:text-white/80 rounded transition duration-300'>Book a session</button> */}
                     </div>
                 </div>
         </div>
+        <Link href="/"><div className='text-accent md:hidden fixed top-0 mt-[80px] text-center bg-[#F4E9E0] border-t-2 border-white w-full py-3 font-light text-[16px]  md:text-[24px]  '><span className='text-[16px] font-semibold md:text-[24px]'>SOUND HEALING</span></div></Link>
 
         {/* <div className='w-full h-[80px] bg-[#EADDD4] z-20 fixed top-[20px] max-w-[1200px] rounded-lg flex items-center justify-center '>
                 <div className='flex items-center justify-between  w-full max-w-[900px]'>
-                    <Link href="/"><div className='text-[#623810]/85 font-light  text-[24px]'><span className='font-semibold text-[24px]'>EAGNA</span> WITH HANNAH</div></Link>
-                    <div className='flex gap-5 items-center'>
-                        <h1 className='text-[24px] font-bold text-[#623810]/85'>SOUND HEALING</h1>
-                        <button className='px-3 py-2 bg-white/70 text-[#623810]  hover:bg-[#623810]/85 hover:text-white/80 rounded transition duration-300'>Book a session</button>
-                    </div>
+                <Link href="/"><div className='text-[#623810]/85 font-light  text-[24px]'><span className='font-semibold text-[24px]'>EAGNA</span> WITH HANNAH</div></Link>
+                <div className='flex gap-5 items-center'>
+                <h1 className='text-[24px] font-bold text-[#623810]/85'>SOUND HEALING</h1>
+                <button className='px-3 py-2 bg-white/70 text-[#623810]  hover:bg-[#623810]/85 hover:text-white/80 rounded transition duration-300'>Book a session</button>
                 </div>
-        </div> */}
+                </div>
+            </div> */}
 
 
         {/* <Image src={background} alt='background'  className='absolute top-0 object-cover z-[-15] ' />
@@ -78,7 +78,7 @@ function SoundHealing() {
         <Image src={background} alt='background'  className='absolute top-[4600px] md:top-[4350px] lg:top-[3900px] object-cover z-[-15] ' />
         <Image src={background} alt='background'  className='absolute top-[4800px] md:top-[4350px] lg:top-[3900px] object-cover z-[-15] ' />
         <Image src={background} alt='background'  className='absolute top-[5000px] md:top-[4350px] lg:top-[3900px] object-cover z-[-15] ' />
-        <Image src={background} alt='background'  className='absolute top-[5200px] md:top-[4350px] lg:top-[3900px] object-cover z-[-15] ' /> */}
+    <Image src={background} alt='background'  className='absolute top-[5200px] md:top-[4350px] lg:top-[3900px] object-cover z-[-15] ' /> */}
 
       
         <div className='flex flex-col justify-center items-center h-screen w-full  mt-[2100px]  md:mt-[1900px] text-center'>
