@@ -71,20 +71,20 @@ function About() {
     
         </div>
 
-        <div className='bg-[#F0EDEA] px-5 mt-20 md:mt-40 scroll-mt-[130px] md:scroll-mt-[200px] text-center w-full max-w-[1080px] flex flex-col justify-center mx-auto p-5 md:p-10 bg-white/85  rounded-lg shadow-box  '>
+        <div className='bg-[#F0EDEA] px-5 mt-20 md:mt-40 scroll-mt-[130px] md:scroll-mt-[200px] text-center w-full max-w-[1080px] flex flex-col justify-center mx-auto p-5 md:p-10 bg-white/85  rounded-lg shadow-lg mg:shadow-box  '>
         <div className='text-[#623810]/85 text-2xl md:text-5xl font-light my-10 '><span className='font-semibold text-2xl md:text-5xl'>EAGNA</span> WITH HANNAH</div>
         <div className='md:mt-10 flex flex-col items-center justify-center md:gap-3'>
                 <div className='flex gap-3 items-center md:md:justify-center   cursor-pointer w-full  rounded-md py-3 text-center' onClick={switchToggleOne} >
                     {toggleOne ? 
-                    <h3 className='transition duration-100 cursor-pointer text-accent font-medium text-lg md:text-xl md:uppercase ' >Background and Training </h3>
-                    : <h3 className='transition duration-100 cursor-pointer md:hover:text-accent font-normal text-lg md:text-xl md:uppercase ' >Background and Training </h3>}
+                    <h3 className='md:transition md:duration-100 cursor-pointer text-accent font-medium text-lg md:text-xl md:uppercase ' >Background and Training </h3>
+                    : <h3 className='md:transition md:duration-100 cursor-pointer md:hover:text-accent font-normal text-lg md:text-xl md:uppercase ' >Background and Training </h3>}
                     {toggleOne ? <IoIosArrowUp size={20} className='text-accent'/> : <IoIosArrowDown size={20} className='text-accent/50'/>}
                 </div>
     
                 <p className={toggleOne ? "text-justify italic font-light" : "text-justify hidden"}>Hannah&apos;s journey with yoga began over 15 years ago, and she has since trained with some of the  most respected teachers in the field. She is a certified yoga instructor with advanced training in various styles,   including Hatha, Vinyasa, and Restorative Yoga. Her extensive training ensures that she brings a wealth of knowledge and  expertise to her classes.</p>
                 <div className='flex gap-3 items-center md:justify-center  cursor-pointer w-full rounded-md py-3  text-center' onClick={switchToggleTwo}>
-                    {toggleTwo ? <h3 className='transition duration-100 cursor-pointer text-accent font-medium text-lg md:text-xl md:uppercase'>Teaching Style</h3> 
-                    : <h3 className='transition duration-100 cursor-pointer md:hover:text-accent font-normal text-lg md:text-xl md:uppercase'>Teaching Style</h3>}
+                    {toggleTwo ? <h3 className='md:transition md:duration-100 cursor-pointer text-accent font-medium text-lg md:text-xl md:uppercase'>Teaching Style</h3> 
+                    : <h3 className='md:transition md:duration-100 cursor-pointer md:hover:text-accent font-normal text-lg md:text-xl md:uppercase'>Teaching Style</h3>}
                     
                     {toggleTwo ? <IoIosArrowUp size={20} className='text-accent'/> : <IoIosArrowDown size={20} className='text-accent/50'/>}
                 </div>
@@ -92,7 +92,7 @@ function About() {
                 <p className={toggleTwo ? "text-justify italic font-light" : "text-justify hidden"}>Hannah&apos;s teaching style is warm, inclusive, and adaptable. She excels at creating a welcoming   environment where students feel supported and encouraged. Her classes are thoughtfully designed to meet the needs of each     individual, whether they are new to yoga or experienced practitioners. Hannah emphasizes alignment, breath awareness, and   mindful movement, ensuring that her students practice safely and effectively.</p>
                 <div className='flex gap-3 items-center md:justify-center  cursor-pointer w-full rounded-md py-3  text-center' onClick={switchToggleThree}>
                     {toggleThree ? <h3 className='transition duration-100 cursor-pointer text-accent font-medium text-lg md:text-xl md:uppercase'>Personal Philosophy</h3> 
-                    : <h3 className='transition duration-100 cursor-pointer md:hover:text-accent font-normal text-lg md:text-xl md:uppercase'>Personal Philosophy</h3>}
+                    : <h3 className='md:transition md:duration-100 cursor-pointer md:hover:text-accent font-normal text-lg md:text-xl md:uppercase'>Personal Philosophy</h3>}
                     
                     {toggleThree ? <IoIosArrowUp size={20} className='text-accent'/> : <IoIosArrowDown size={20} className='text-accent/50'/>}
                 </div>
@@ -100,7 +100,7 @@ function About() {
     
                 <div className='flex gap-3 items-center md:justify-center cursor-pointer w-full  rounded-md py-3 text-center' onClick={switchToggleFour}>
                     {toggleFour ? <h3 className='transition duration-100 cursor-pointer text-accent font-medium text-lg md:text-xl md:uppercase'>Community & Connection</h3> 
-                    : <h3 className='transition duration-100 cursor-pointer md:hover:text-accent font-normal text-lg md:text-xl md:uppercase'>Community & Connection</h3>}
+                    : <h3 className='md:transition md:duration-100 cursor-pointer md:hover:text-accent font-normal text-lg md:text-xl md:uppercase'>Community & Connection</h3>}
                     
                     {toggleFour ? <IoIosArrowUp size={20} className='text-accent'/> : <IoIosArrowDown size={20} className='text-accent/50'/>}
                 </div>
