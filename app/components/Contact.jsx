@@ -10,7 +10,7 @@ function Contact() {
     <main className='px-5'>
     <div id="contact" className='bg-[#F0EDEA] scroll-mt-[130px] md:scroll-mt-[200px] text-center w-full max-w-[1080px] flex flex-col items-center justify-center mx-auto p-10 pb-20 rounded-lg bg-white/85 shadow-box mt-20 md:mt-40  md:mb-[200px]'>
         
-        <h1 className='text-accent font-semibold text-3xl md:text-5xl my-10 md:mt-10 md:mb-20 uppercase'>Contact Hannah</h1>
+        <h1 className='text-accent font-semibold text-2xl md:text-5xl my-10 md:mt-10 md:mb-20 uppercase'>Contact Hannah</h1>
         <p className='text-justify mb-3 text-accent font-medium text-lg md:text-xl'>She’d love to hear from you!</p> 
         <p className=' mb-20 max-w-[800px] max-md:text-base font-light'>Whether you have questions about her yoga sessions, want to book a class, or simply want to connect, please use the information below to get in touch with Hannah.</p>
         {/* <p className='text-justify mb-3 text-accent font-medium text-xl mt-10'>Contact Information</p> */}

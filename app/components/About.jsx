@@ -54,7 +54,7 @@ function About() {
     
     
             {/* <Image src={background} alt='background' fill={true} className='object-cover z-[-5]' /> */}
-            <h1 className='text-accent font-semibold text-3xl md:text-5xl mt-10 md:my-10 uppercase'>About Hannah</h1>
+            <h1 className='text-accent font-semibold text-2xl md:text-5xl mt-10 md:my-10 uppercase'>About Hannah</h1>
     
             <div className='flex flex-col-reverse md:flex-col '>
                 <p className='md:text-center mt-10 text-justify text-base md:text-lg'>Hannah is a dedicated and compassionate yoga teacher with over a decade of experience in guiding individuals on their yoga journey. Her teaching philosophy centers around the belief that yoga is for everyone, regardless of age, fitness level, or experience. Hannah&apos;s approach is holistic, combining physical postures, breathing techniques, and mindfulness practices to create a well-rounded and enriching yoga experience.</p>
@@ -72,7 +72,7 @@ function About() {
         </div>
 
         <div className='bg-[#F0EDEA] px-5 mt-20 md:mt-40 scroll-mt-[130px] md:scroll-mt-[200px] text-center w-full max-w-[1080px] flex flex-col justify-center mx-auto p-5 md:p-10 bg-white/85  rounded-lg shadow-box  '>
-        <div className='text-[#623810]/85 text-3xl md:text-5xl font-light my-10 '><span className='font-semibold text-3xl md:text-5xl'>EAGNA</span> WITH HANNAH</div>
+        <div className='text-[#623810]/85 text-2xl md:text-5xl font-light my-10 '><span className='font-semibold text-2xl md:text-5xl'>EAGNA</span> WITH HANNAH</div>
         <div className='md:mt-10 flex flex-col items-center justify-center md:gap-3'>
                 <div className='flex gap-3 items-center md:md:justify-center   cursor-pointer w-full  rounded-md py-3 text-center' onClick={switchToggleOne} >
                     {toggleOne ? 
