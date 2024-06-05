@@ -28,7 +28,7 @@ function page() {
 
         <section className='relative w-full h-screen flex items-center justify-center'>
             <Image src={background} alt='background'  className='w-full h-full object-cover z-[-5]'/>
-            <div className='absolute mt-[210px]  md:mt-[230px] w-full max-w-[350px] bg-white/70  lg:max-w-[1280px] mb-40 flex flex-col gap-5  py-10 md:py-14 px-5 rounded'>
+            <div className='absolute mt-[180px]  md:mt-[230px] w-full max-w-[350px] bg-white/70  lg:max-w-[1280px] mb-40 flex flex-col gap-5  py-10 md:py-14 px-5 rounded'>
                 <h1 className='md:font-light text-xl md:text-5xl text-center'>Retreat In Newport County Mayo, Ireland <br></br>October 11th to 13th</h1>
                 <div className='flex flex-col md:flex-row items-center gap-3 mx-auto mt-10'>
                 <h1 className='font-bold text-2xl md:text-5xl  text-center md:mt-20 '>UNWIND,  </h1>
@@ -204,8 +204,8 @@ function page() {
                 loading="lazy" 
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <p className='max-md:px-5 mt-20 text-center font-light text-xl  md:text-[30px] leading-relaxed tracking-tight'>We look forward to welcoming you on your journey to inner peace, where every moment promises to rejuvenate your body, mind, and spirit.<br></br> <span className='font-bold'>Join us</span> <span className='font-bold'>in County Mayo, Ireland </span><span className='font-bold '>for an unforgettable retreat experience</span> filled with tranquility, connection, and self-discovery.</p>
-            <button className='mb-20 mt-20 md:mb-40 px-7 py-5 bg-[#623810]/85 hover:bg-[#623810]/95 hover:text-white/90 rounded text-white  font-medium min-w-[300px] transition duration-300'>Join The Retreat</button>
+            <p className='max-md:px-5 mt-20 text-center font-light text-xl  md:text-[30px] leading-relaxed tracking-tight'>We look forward to welcoming you on your journey to inner peace, where every moment promises to rejuvenate your body, mind, and spirit.<br></br> <span className='font-bold text-accent'>Join us</span> <span className='font-bold text-accent'>in County Mayo, Ireland </span><span className='font-bold text-accent'>for an unforgettable retreat experience</span> filled with tranquility, connection, and self-discovery.</p>
+            <button className='mb-20 mt-20 md:mb-40 px-7 py-5 bg-accent hover:bg-[#623810]/95 hover:text-white/90 rounded text-white  font-medium min-w-[300px] transition duration-300'>Join The Retreat</button>
         </section>
 
 
