@@ -70,14 +70,14 @@ function Navbar() {
                     <p className='text-justify  text-accent font-medium text-xl mb-5'>Connect with Hannah</p>
                     <div  className='flex justify-center items-center gap-5 '>
                       <Link target="_blank" href="https://api.whatsapp.com/send?phone=353877622193&text=Hello+Hannah,+ I´m interested+in+your+yoga´s+services&app_absent=0"><FaWhatsapp size={30} className='text-accent'/></Link>
-                      <MdOutlineEmail size={30} className='text-accent hover:scale-[1.05]  cursor-pointer transition duration-300'/>
-                      <Link href="https://www.instagram.com/eagnawithhannah/"><AiOutlineInstagram size={30} className='text-accent hover:scale-[1.05]  cursor-pointer transition duration-300'/></Link>
+                      <Link href="#email"><MdOutlineEmail size={30} className='text-accent '/></Link>
+                      <Link href="https://www.instagram.com/eagnawithhannah/" target='blank'><AiOutlineInstagram size={30} className='text-accent '/></Link>
                     </div> 
                   </div>
                   <div className='w-full h-[3px] bg-white my-7'></div>
                   <Link href="/"><div className='mt-10 text-[#623810]/85 hover:scale-[1.05] transition duration-300 font-light  text-[24px]'><span className='font-semibold text-[24px]'>EAGNA</span> WITH HANNAH</div></Link>
                   {/* <p className='mt-20'>#TRANSFORM YOUR LIFE WITH YOGA.</p> */}
-                  <p className='mt-3 font-light'>#YOGA IS OUR BEST CHOICE.</p>
+                  <p className='mt-3 font-light'>#YOGA IS OUR BEST PRACTICE.</p>
                 </div>
             </ul>
             : ""}

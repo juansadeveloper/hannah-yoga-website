@@ -141,7 +141,7 @@ function Page() {
                 <li className='px-5 py-7  bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Spiritual Growth</p></li>
                 <li className='px-5 py-7  bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Spiritual Connection</p></li>
             </ul> */}
-            <div className='flex flex-col max-md:px-20 gap-5 justify-center items-center md:mt-[70px] mb-[70px] md:mb-[200px]'>
+            <div className='flex flex-col gap-5 justify-center items-center md:mt-[70px] mb-[70px] md:mb-[200px]'>
                 <button className='px-7 py-5  bg-accent hover:bg-[#623810]/95 hover:text-white/90 rounded text-white  font-medium min-w-[300px] transition duration-300'>Talk with Hannah</button>
                 {/* <button className='px-7 py-5 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium min-w-[300px] transition duration-300'>Talk with Hannah</button> */}
             </div>
