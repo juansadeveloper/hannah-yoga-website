@@ -71,7 +71,7 @@ function About() {
     
         </div>
 
-        <div className='bg-[#F0EDEA] px-5 mt-20 md:mt-40 scroll-mt-[130px] md:scroll-mt-[200px] text-center w-full max-w-[1080px] flex flex-col justify-center mx-auto p-5 md:p-10 bg-white/85  rounded-lg shadow-lg mg:shadow-box  '>
+        <div className='bg-[#F0EDEA] px-5 mt-20 md:mt-40 scroll-mt-[130px] md:scroll-mt-[200px] text-center w-full max-w-[1080px] flex flex-col justify-center mx-auto p-5 md:p-10 bg-white/85  rounded-lg shadow-box  '>
         <div className='text-[#623810]/85 text-2xl md:text-5xl font-light my-10 '><span className='font-semibold text-2xl md:text-5xl'>EAGNA</span> WITH HANNAH</div>
         <div className='md:mt-10 flex flex-col items-center justify-center md:gap-3'>
                 <div className='flex gap-3 items-center md:md:justify-center   cursor-pointer w-full  rounded-md py-3 text-center' onClick={switchToggleOne} >
