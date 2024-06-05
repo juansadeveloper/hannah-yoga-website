@@ -99,7 +99,7 @@ function Page() {
         </section>
         <section className='flex flex-col justify-center items-center px-5 w-full'>
                 <h1 className='font-bold text-center max-md:max-w-[300px]  text-2xl  md:text-3xl mt-40  mb-10 text-accent'>CHOOSE THE TYPE OF YOGA THAT YOU PREFER</h1>
-                <div className='w-full max-w-[1240px] flex flex-col md:flex-row items-center justify-center gap-5 py-7'>
+                <div className='w-full max-w-[1240px] flex flex-col md:flex-row items-center justify-center gap-8 py-7'>
                     <div className='bg-[#f5f0ec] gap-5 p-7 rounded-md flex-col items-center  cursor-pointer transition duration-500 shadow  max-md:hover:border  max-md:hover:shadow-xl md:hover:scale-[1.03]'>
                         <div>
                             <h1 className='font-bold text-2xl mb-10 text-accent'>Hatha Yoga</h1>
@@ -129,7 +129,7 @@ function Page() {
                         <button className='mt-5 px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book Ying Session</button>
                     </div>
                 </div>
-                <div className=' mt-[150px] mb-20 bg-white/80  py-5 px-5 md:p-10 rounded max-w-[1240px]'>
+                <div className=' mt-[150px] mb-5 md:mb-20 bg-white/80  py-5 px-5 md:p-10 rounded max-w-[1240px]'>
                 <h1 className='text-accent font-bold mb-5 text-xl md:text-2xl text-center'>THINK IT THIS WAY:</h1>
                 <p className=' font-light text-justify md:text-xl md:text-center '>Yoga is not just a form of exercise but a comprehensive lifestyle that promotes overall well-being. Whether you seek physical fitness, mental clarity, or spiritual growth, yoga offers tools and techniques to help you achieve a balanced and fulfilling life.</p>
             </div>
@@ -141,7 +141,7 @@ function Page() {
                 <li className='px-5 py-7  bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Spiritual Growth</p></li>
                 <li className='px-5 py-7  bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Spiritual Connection</p></li>
             </ul> */}
-            <div className='flex flex-col gap-5 justify-center items-center mt-[70px] mb-[70px] md:mb-[200px]'>
+            <div className='flex flex-col max-md:px-20 gap-5 justify-center items-center md:mt-[70px] mb-[70px] md:mb-[200px]'>
                 <button className='px-7 py-5  bg-accent hover:bg-[#623810]/95 hover:text-white/90 rounded text-white  font-medium min-w-[300px] transition duration-300'>Talk with Hannah</button>
                 {/* <button className='px-7 py-5 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium min-w-[300px] transition duration-300'>Talk with Hannah</button> */}
             </div>
