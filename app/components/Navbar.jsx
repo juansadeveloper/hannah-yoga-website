@@ -48,7 +48,7 @@ function Navbar() {
                 <Link href="/yoga"><li className='hover:text-accent hover:bg-white/50 transition duration-300  rounded px-4 py-2 cursor-pointer'>YOGA</li></Link>
                 <Link href="/reiki"><li className='hover:text-accent hover:bg-white/50 transition duration-300  rounded px-4 py-2 cursor-pointer'>REIKI</li></Link>
                 <Link href="/sound-healing"><li className='hover:text-accent hover:bg-white/50 transition duration-300  rounded px-4 py-2 cursor-pointer'>SOUND HEALING</li></Link>
-                <li className='hover:text-accent hover:bg-white/50 transition duration-300  rounded px-4 py-2 cursor-pointer'>FUNDRAISING</li>
+                <Link href="/fundraising"><li className='hover:text-accent hover:bg-white/50 transition duration-300  rounded px-4 py-2 cursor-pointer'>FUNDRAISING</li></Link>
                 <Link href="#about"><li className='hover:text-accent hover:bg-white/50 transition duration-300  rounded px-4 py-2 cursor-pointer'>ABOUT</li></Link>
                 <Link href="#contact"><li className='hover:text-accent hover:bg-white/50 transition duration-300  rounded px-4 py-2 cursor-pointer'>CONTACT</li></Link>
                 <Link href="/retreats"><li className='hover:text-accent transition duration-300 bg-white/85 border border-transparent hover:border hover:border-accent/50 hover:bg-white rounded px-4 py-2 cursor-pointer'>RETREATS</li></Link>
@@ -61,7 +61,7 @@ function Navbar() {
                   <Link href="/yoga"><li className='hover:text-white/85 transition duration-300  rounded px-4 py-1 cursor-pointer'>YOGA</li></Link>
                   <Link href="/reiki"><li className='hover:text-white/85 transition duration-300  rounded px-4 py-1 cursor-pointer'>REIKI</li></Link>
                   <Link href="/sound-healing"><li className='hover:text-white/85 transition duration-300  rounded px-4 py-1 cursor-pointer'>SOUND HEALING</li></Link>
-                  <li className='hover:text-white/85 transition duration-300  rounded px-4 py-1 cursor-pointer'>FUNDRAISING</li>
+                  <Link href="/fundraising"><li className='hover:text-white/85 transition duration-300  rounded px-4 py-1 cursor-pointer'>FUNDRAISING</li></Link>
                   <Link href="#about"><li className='hover:text-white/85 transition duration-300  rounded px-4 py-1 cursor-pointer'>ABOUT</li></Link>
                   <Link href="#contact"><li className='hover:text-white/85 transition duration-300  rounded px-4 py-1 cursor-pointer'>CONTACT</li></Link>
                   <Link href="/retreats"><li className='hover:text-white/85 transition duration-300 rounded px-4 py-2 cursor-pointer'>UPCOMING RETREATS</li></Link>

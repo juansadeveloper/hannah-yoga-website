@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 //COMPONENTS
-import FooterSection from '../components/FooterSection'
+import Footer from '../components/Footer'
 
 //IMAGES
 import background from "../../public/section-background.jpg"
@@ -121,7 +121,7 @@ function SoundHealing() {
                 <button className='px-7 py-5 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium min-w-[300px] transition duration-300'>Talk with Hannah</button>
             </div>
             
-            <FooterSection />
+            <Footer />
         </div>
         
         

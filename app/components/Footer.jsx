@@ -33,9 +33,9 @@ function Footer() {
                     <Link href="/sound-healing"><h3 className='text-[#623810]/85 font-light  text-[18px] hover:cursor-pointer hover: transition-all duration-500 hover:-translate-y-[6px]'><span className='font-semibold text-[18px]'>SOUND HEALING</span> WITH HANNAH</h3></Link>
                 </div>
                 <div className='flex max-md:flex-col max-md:items-start items-center w-full gap-5 md:gap-10 justify-center'>
-                    <h3 className='text-[#623810]/85 font-light  text-[18px] hover:cursor-pointer hover: transition-all duration-500 hover:-translate-y-[6px]'><span className='font-semibold text-[18px]'>FUNDRAISING</span></h3>
+                    <Link href="/fundraising"><h3 className='text-[#623810]/85 font-light  text-[18px] hover:cursor-pointer hover: transition-all duration-500 hover:-translate-y-[6px]'><span className='font-semibold text-[18px]'>FUNDRAISING</span></h3></Link>
                     {/* <h3 className='text-[#623810]/85 font-light  text-[18px] hover:cursor-pointer hover: transition-all duration-500 hover:-translate-y-[6px]'><span className='font-semibold text-[18px]'>ABOUT</span> HANNAH</h3> */}
-                    <h3 className='text-[#623810]/85 font-light  text-[18px] hover:cursor-pointer hover: transition-all duration-500 hover:-translate-y-[6px]'><span className='font-semibold text-[18px]'>RETREATS</span></h3>
+                    <Link href="/retreats"><h3 className='text-[#623810]/85 font-light  text-[18px] hover:cursor-pointer hover: transition-all duration-500 hover:-translate-y-[6px]'><span className='font-semibold text-[18px]'>RETREATS</span></h3></Link>
                     {/* <h3 className='text-[#623810]/85 font-light  text-[18px] hover:cursor-pointer hover: transition-all duration-500 hover:-translate-y-[6px]'><span className='font-semibold text-[18px]'>CONTACT</span> HANNAH</h3> */}
                 </div>  
             </div>
