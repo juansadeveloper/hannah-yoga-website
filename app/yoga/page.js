@@ -75,7 +75,7 @@ function Page() {
         {/* <div className='bg-[#f5f0ec] w-full max-w-[1240px] py-7 flex justify-center items-center rounded-lg my-14'></div> */}
         <section className='min-h-screen flex flex-col justify-center items-center max-md:px-5'>
             <h1 className='font-bold text-3xl mt-40  max-md:text-center text-accent'>BOOK A YOGA CLASS TODAY</h1>
-                    <p className='   font-light text-justify md:text-xl md:text-center mt-5 md:mt-10 mb-5 md:mb-10 md:max-w-[1240px]'>Discover the transformative power of yoga with personalized guidance from Hannah. Whether you&apos;re a beginner looking to start your yoga journey or an experienced practitioner aiming to deepen your practice, Hannah offers both private and group sessions tailored to meet your individual needs.</p>
+                    <p className='   font-light text-justify md:text-xl md:text-center  mt-10 mb-5 md:mb-10 md:max-w-[1240px]'>Discover the transformative power of yoga with personalized guidance from Hannah. Whether you&apos;re a beginner looking to start your yoga journey or an experienced practitioner aiming to deepen your practice, Hannah offers both private and group sessions tailored to meet your individual needs.</p>
             <div className='w-full max-w-[1240px] flex flex-col md:flex-row items-center justify-center gap-10 py-7'>
                 <div className='bg-[#f5f0ec] gap-5 p-7 rounded-lg  cursor-pointer transition duration-500 shadow hover:bg-[#ede3dd] '>
                     <div>

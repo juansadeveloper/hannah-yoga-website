@@ -28,7 +28,7 @@ function page() {
 
         <section className='relative w-full h-screen flex items-center justify-center'>
             <Image src={background} alt='background'  className='w-full h-full object-cover z-[-5]'/>
-            <div className='absolute mt-60  md:mt-[230px] w-full max-w-[350px] bg-white/70  lg:max-w-[1280px] mb-40 flex flex-col gap-5  py-10 md:py-14 px-5 rounded'>
+            <div className='absolute mt-[210px]  md:mt-[230px] w-full max-w-[350px] bg-white/70  lg:max-w-[1280px] mb-40 flex flex-col gap-5  py-10 md:py-14 px-5 rounded'>
                 <h1 className='md:font-light text-xl md:text-5xl text-center'>Retreat In Newport County Mayo, Ireland <br></br>October 11th to 13th</h1>
                 <div className='flex flex-col md:flex-row items-center gap-3 mx-auto mt-10'>
                 <h1 className='font-bold text-2xl md:text-5xl  text-center md:mt-20 '>UNWIND,  </h1>
