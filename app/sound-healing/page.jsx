@@ -78,7 +78,7 @@ function SoundHealing() {
         <Image src={background} alt='background'  className='absolute top-[5200px] md:top-[4350px] lg:top-[3900px] object-cover z-[-15] ' /> */}
 
       
-        <div className='flex flex-col justify-center items-center h-screen w-full  mt-[2250px]  md:mt-[1850px] text-center'>
+        <div className='flex flex-col justify-center items-center h-screen w-full  mt-[2250px]  md:mt-[1900px] text-center'>
             
             <section className='max-w-[1000px] px-5'>
                 <h1 className='text-accent text-2xl md:text-5xl font-bold z-10'>What is Sound Healing?</h1>
@@ -92,23 +92,23 @@ function SoundHealing() {
             </section>
 
 
-            <h1 className='text-accent max-w-[1080px] text-2xl md:text-5xl font-bold z-10 mb-10 mt-[70px] md:mt-[100px]'>Which benefits do I get by this practice?</h1>
-            <p className='px-5 text-justify md:text-xl md:text-center font-base  mb-20'>The benefits of incorporating sound healing into yoga practice are numerous:</p>
+            <h1 className='text-accent  max-w-[1080px] text-2xl md:text-5xl font-bold z-10 mb-10 mt-[70px] md:mt-[100px]'>Which benefits do I get by this practice?</h1>
+            <p className='px-5 text-justify md:text-xl md:text-center font-base mb-10 md:mb-20'>The benefits of incorporating sound healing into yoga practice are numerous:</p>
             <ul className='flex  gap-5 items-center justify-center flex-wrap max-w-[700px]'>
-                <li className='px-7 py-10 bg-white text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Deep Relaxation</p></li>
-                <li className='px-7 py-10 bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Enhanced Meditation</p></li>
-                <li className='px-7 py-10 bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Physical Healing</p></li>
-                <li className='px-7 py-10 bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Emotional Release</p></li>
+                <li className='px-5 py-5 md:px-7  md:py-10 bg-white text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Deep Relaxation</p></li>
+                <li className='px-5 py-5 md:px-7  md:py-10 bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Enhanced Meditation</p></li>
+                <li className='px-5 py-5 md:px-7  md:py-10 bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Physical Healing</p></li>
+                <li className='px-5 py-5 md:px-7  md:py-10 bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Emotional Release</p></li>
                 {/* <li className='px-5 py-10 bg-white rounded text-[#623810] border border-[#623810]/20 font-medium text-center'><p>Stress Reduction</p></li> */}
                 {/* <li className='px-5 py-10 bg-white rounded text-[#623810] border border-[#623810]/20 font-medium text-center'><p>Energetic Balance</p></li> */}
-                <li className='px-7 py-10 bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Enhanced Focus and Clarity</p></li>
-                <li className='px-7 py-10 bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Spiritual Connection</p></li>
+                <li className='px-5 py-5 md:px-7  md:py-10 bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Enhanced Focus and Clarity</p></li>
+                <li className='px-5 py-5 md:px-7  md:py-10 bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Spiritual Connection</p></li>
             </ul>
 
 
             <div className=' max-w-[1000px] text-xl font-base text-center my-[100px] bg-white/80  py-7 px-5 md:p-20 rounded'>
                 <h1 className='text-accent font-bold mb-5 text-xl md:text-2xl'>REMEMBER</h1>
-                <p className='text-center md:text-xl md:text-center'>By integrating sound healing into yoga practice, practitioners can experience a more profound and holistic approach to well-being, nurturing harmony and balance in body, mind, and spirit.</p>
+                <p className='text-center md:text-xl md:text-center'>By integrating sound healing into yoga practice, you can experience a more profound and holistic approach to well-being, nurturing harmony and balance in body, mind, and spirit.</p>
             </div>
 
             <div className='border py-7 px-5 md:p-20 rounded w-full bg-[#f5f0ec]'>
@@ -116,11 +116,11 @@ function SoundHealing() {
                     {/* <p className='text-[#623810]/85  font-base text-justify md:text-xl md:text-center my-20'>Discover the transformative power of yoga with personalized guidance from Hannah. Whether you&apos;re a beginner looking to start your yoga journey or an experienced practitioner aiming to deepen your practice, Hannah offers both private and group sessions tailored to meet your individual needs.</p> */}
                 </div>
 
-            <h1 className='text-accent max-w-[1000px] text-2xl md:text-5xl font-bold z-10 mb-20 md:leading-[70px] text-center mt-20 md:mt-40'>Trained by the best instructors at <span className='italic font-light'> Academy of Sound Healing</span> <br></br>in India.</h1>
+            <h1 className='text-accent max-w-[1000px] text-xl md:text-5xl font-bold z-10 mb-20 md:leading-[70px] text-center mt-20 md:mt-40'>Trained by the best instructors at <span className='italic font-light'> Academy of Sound Healing</span> <br></br>in India.</h1>
 
             {/* <h1 className='italic font-light text-[#623810]/85 text-5xl'>Trained by the best instructors at <span className=' font-bold z-10 mb-20'>Academy of Sound Healing</span> in India.</h1> */}
 
-            <div className='flex flex-col md:flex-row justify-center gap-5'>
+            <div className='flex flex-col md:flex-row justify-center gap-5 px-5'>
                 <Image src={three} alt='' className='md:w-[300px] md:h-[500px] object-cover w-full h-[350px] border-[6px] border-white shadow-box'></Image>
                 {/* <Image src={four} alt='' className='w-[300px] h-[500px] object-cover'></Image> */}
                 <Image src={five} alt='' className='md:w-[300px] md:h-[500px] object-cover w-full h-[350px] border-[6px] border-white shadow-box'></Image>
