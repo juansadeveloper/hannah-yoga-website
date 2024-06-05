@@ -17,7 +17,7 @@ function page() {
 
         <div className='w-full h-[80px] bg-[#EADDD4] z-20 fixed top-0 flex items-center justify-center px-5'>
             <div className='flex items-center justify-between  w-full max-w-[1500px]'>
-                <Link href="/"><div className='text-[#623810]/85 font-light  md:text-[24px] hover:scale-[1.05] transition duration-300 text-[18px]'><span className='font-semibold text-[18px] md:text-[24px]'>RETREATS</span> WITH HANNAH</div></Link>
+                <Link href="/"><div className='text-[#623810]/85 font-light  md:text-[24px] hover:scale-[1.05] transition duration-300 text-[18px]'><span className='font-semibold text-[18px] md:text-[24px]'>RETREATS</span></div></Link>
                 <div className='flex max-md:flex-col md:gap-5 items-center'>
                     {/* <h1 className='text-[15px] md:text-[24px] font-bold text-[#623810]/85'> YOGA</h1> */}
                     <h3 className='text-[#623810]/85 max-md:hidden'><span className='font-bold'>Next retreat:</span> 11th to 13th October 2024</h3>
@@ -30,7 +30,7 @@ function page() {
             <Image src={background} alt='background'  className='w-full h-full object-cover z-[-5]'/>
             <div className='absolute mt-[150px]  md:mt-[230px] w-full max-w-[350px] bg-white/70  lg:max-w-[1280px] mb-40 flex flex-col gap-5  py-10 md:py-14 px-5 rounded'>
                 <h1 className='md:font-light text-xl md:text-5xl text-center'>Retreat In Newport County Mayo, Ireland <br></br>October 11th to 13th</h1>
-                <div className='flex flex-col md:flex-row items-center gap-3 mx-auto mt-10'>
+                <div className='flex flex-col md:flex-row items-center gap-3 mx-auto max-md:mt-10'>
                 <h1 className='font-bold text-2xl md:text-5xl  text-center md:mt-20 '>UNWIND,  </h1>
                 <h1 className='font-bold text-2xl md:text-5xl  text-center md:mt-20 '>RECONNECT & </h1>
                 <h1 className='font-bold text-2xl md:text-5xl  text-center md:mt-20 '>FIND INNER PEACE.</h1>
