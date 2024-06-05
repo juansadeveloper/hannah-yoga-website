@@ -37,7 +37,7 @@ function SoundHealing() {
                     </div>
                 </div>
         </div>
-        <Link href="/"><div className='text-accent md:hidden fixed top-0 mt-[80px] text-center bg-[#F4E9E0] border-t-2 border-white w-full py-3 font-light text-[16px]  md:text-[24px]  '><span className='text-[16px] font-semibold md:text-[24px]'>SOUND HEALING</span></div></Link>
+        <Link href="/"><div className='text-accent md:hidden fixed top-0 mt-[80px] text-center bg-[#F4E9E0] shadow-xl z-20 border-t-2 border-white w-full py-3 font-light text-[16px]  md:text-[24px]  '><span className='text-[16px] font-semibold md:text-[24px]'>SOUND HEALING</span></div></Link>
 
         {/* <div className='w-full h-[80px] bg-[#EADDD4] z-20 fixed top-[20px] max-w-[1200px] rounded-lg flex items-center justify-center '>
                 <div className='flex items-center justify-between  w-full max-w-[900px]'>
@@ -81,7 +81,7 @@ function SoundHealing() {
     <Image src={background} alt='background'  className='absolute top-[5200px] md:top-[4350px] lg:top-[3900px] object-cover z-[-15] ' /> */}
 
       
-        <div className='flex flex-col justify-center items-center h-screen w-full  mt-[2100px]  md:mt-[1900px] text-center'>
+        <div className='flex flex-col justify-center items-center h-screen w-full  mt-[2150px]  md:mt-[1900px] text-center'>
             
             <section className='max-w-[1000px] px-5'>
                 <h1 className='text-accent text-2xl md:text-5xl font-bold z-10'>What is Sound Healing?</h1>
