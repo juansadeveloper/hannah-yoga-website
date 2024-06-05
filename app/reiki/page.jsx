@@ -79,7 +79,7 @@ function Page() {
         {/* <Image src={background} alt='background'  className='absolute top-[5200px] md:top-[4350px] lg:top-[3900px] object-cover z-[-15] ' /> */}
 
       
-        <div className='flex flex-col justify-center items-center h-screen w-full mt-[1850px]  md:mt-[1350px] text-center'>
+        <div className='flex flex-col justify-center items-center h-screen w-full mt-[1650px]  md:mt-[1350px] text-center'>
             <h1 className='text-accent max-w-[1000px] text-2xl md:text-5xl font-bold z-10'>What is Reiki?</h1>
             <p className=' max-w-[1000px]  font-base text-justify md:text-xl md:text-center my-20 px-5'>Reiki is a Japanese healing technique that involves the transfer of universal energy through the practitioner&apos;s palms to the recipient. It&apos;s based on the idea that an unseen &quot;life force energy&quot; flows through us and is what causes us to be alive. If one&apos;s &quot;life force energy&quot; is low, then we are more likely to get sick or feel stress, and if it&apos;s high, we are more capable of being happy and healthy.</p>
             <div className='flex max-md:flex-col gap-5 px-5'>
