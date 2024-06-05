@@ -7,7 +7,7 @@ import { IoIosArrowDown } from "react-icons/io"
 
 //PICTURES
 import mainpic from "../../public/background5.jpeg"
-import background from "../../public/background5.jpeg"
+import background from "../../public/background3.jpeg"
 // import mainpic from "../../public/background3.jpeg"
 // import background from "../../public/section-bg4.jpg"
 import About from './About' 
