@@ -32,7 +32,7 @@ function SoundHealing() {
                     </div>
                     <div className='flex max-md:flex-col md:gap-5 items-center md:min-w-[450px]'>
                         <h1 className='max-md:hidden text-[15px] md:text-[24px] font-bold text-[#623810]/85 w-full'>SOUND HEALING</h1>
-                        <button className='w-full px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book a session</button>
+                        <Link target="_blank" href="https://api.whatsapp.com/send?phone=353877622193&text=Hello+Hannah,+ I want to book a sound healing session&app_absent=0" className='text-center w-full px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight '><button >Book a session</button></Link>
                         {/* <button className='px-3 py-2 bg-white/70 text-[#623810]  hover:bg-[#623810]/85 hover:text-white/80 rounded transition duration-300'>Book a session</button> */}
                     </div>
                 </div>
@@ -130,8 +130,8 @@ function SoundHealing() {
             </div>
             
             <div className='flex flex-col gap-5 justify-center items-center mt-[120px] mb-[100px] md:mb-[200px]'>
-                <button className='px-7 py-5 bg-accent hover:bg-[#623810]/95 hover:text-white/90 rounded text-white  font-medium min-w-[300px] transition duration-300'>Book a Sound Healing Session</button>
-                <button className='px-7 py-5 bg-white rounded text-accent border border-[#623810]/20 hover:border-[#623810]/50 font-medium min-w-[300px] transition duration-300'>Talk with Hannah</button>
+            <Link target="_blank" href="https://api.whatsapp.com/send?phone=353877622193&text=Hello+Hannah,+ I want to book a sound healing session&app_absent=0"><button className='px-7 py-5 bg-accent hover:bg-[#623810]/95 hover:text-white/90 rounded text-white  font-medium min-w-[300px] transition duration-300'>Book a Sound Healing Session</button></Link>
+            <Link target="_blank" href="https://api.whatsapp.com/send?phone=353877622193&text=Hello+Hannah,+ I would like to talk about sound healing sessions&app_absent=0"><button className='px-7 py-5 bg-white rounded text-accent border border-[#623810]/20 hover:border-[#623810]/50 font-medium min-w-[300px] transition duration-300'>Talk with Hannah</button></Link>
             </div>
 
             <div className='w-full flex flex-col justify-center items-center text-center'>

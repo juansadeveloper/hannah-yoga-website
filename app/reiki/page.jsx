@@ -31,7 +31,7 @@ function Page() {
                     <Link href="/"><div className='text-[#623810]/85 font-light  md:text-[24px] hover:scale-[1.05] transition duration-300'><span className='font-semibold md:text-[24px]'>REIKI</span> WITH HANNAH</div></Link>
                     <div className='flex max-md:flex-col md:gap-5 items-center'>
                         {/* <h1 className='text-[15px] md:text-[24px] font-bold text-[#623810]/85'>REIKI</h1> */}
-                        <button className='px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book a session</button>
+                        <Link target="_blank" href="https://api.whatsapp.com/send?phone=353877622193&text=Hello+Hannah,+ I want to book a reiki session&app_absent=0"><button className='px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book a session</button></Link>
                         {/* <button className='px-3 py-2 bg-white/70 text-[#623810]  hover:bg-[#623810]/85 hover:text-white/80 rounded transition duration-300'>Book a session</button> */}
                     </div>
                 </div>
@@ -125,8 +125,8 @@ function Page() {
             </div> */}
             
             <div className='flex flex-col gap-5 justify-center items-center mt-32 mb-16 md:mt-[150px] md:mb-[150px]'>
-                <button className='px-7 py-5 bg-[#623810]/85 hover:bg-[#623810]/95 hover:text-white/90 rounded text-white  font-medium min-w-[300px] transition duration-300'>Book a Reiki Session</button>
-                <button className='px-7 py-5 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium min-w-[300px] transition duration-300'>Talk with Hannah</button>
+            <Link target="_blank" href="https://api.whatsapp.com/send?phone=353877622193&text=Hello+Hannah,+ I want to book a reiki session&app_absent=0"><button className='px-7 py-5 bg-[#623810]/85 hover:bg-[#623810]/95 hover:text-white/90 rounded text-white  font-medium min-w-[300px] transition duration-300'>Book a Reiki Session</button></Link>
+            <Link target="_blank" href="https://api.whatsapp.com/send?phone=353877622193&text=Hello+Hannah,+ I would like to talk with you about reiki sessions&app_absent=0"><button className='px-7 py-5 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium min-w-[300px] transition duration-300'>Talk with Hannah</button></Link>
             </div>
             
 

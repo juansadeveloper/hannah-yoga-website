@@ -37,7 +37,7 @@ function Page() {
                 <Link href="/"><div className='text-[#623810]/85 font-light  md:text-[24px] hover:scale-[1.05] transition duration-300 text-[18px]'><span className='font-semibold text-[18px] md:text-[24px]'>YOGA</span> WITH HANNAH</div></Link>
                 <div className='flex max-md:flex-col md:gap-5 items-center'>
                     {/* <h1 className='text-[15px] md:text-[24px] font-bold text-[#623810]/85'> YOGA</h1> */}
-                    <button className='px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book a session</button>
+                    <Link target="_blank" href="https://api.whatsapp.com/send?phone=353877622193&text=Hello+Hannah,+ I want to book a yoga session&app_absent=0"><button className='px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book a session</button></Link>
                 </div>
             </div>
         </div>
@@ -83,8 +83,8 @@ function Page() {
                         <p className='max-w-[500px] mb-5 font-extralight '>Elevate your yoga journey with private classes tailored exclusively to you or your group. Receive individualized instruction and support from Hannah to deepen your practice and achieve your wellness goals.</p>
                     </div>
                     <Image src={photo4} alt='yoga-pic' className='object-cover w-full h-full max-w-[500px] max-h-[315px] max-md:h-[275px] rounded'/>
-                    <button className=' mt-5 px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book Private Class</button>
-                    <button className='mt-5 ml-1 px-2 py-1 md:px-3 md:py-2 bg-transparent rounded   hover:underline font-light text-accent transition duration-300 max-md:tracking-tight'>Get more info</button>
+                    <Link target="_blank" href="https://api.whatsapp.com/send?phone=353877622193&text=Hello+Hannah,+ I want to book a private yoga session&app_absent=0"><button className=' mt-5 px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book Private Class</button></Link>
+                    <Link target="_blank" href="https://api.whatsapp.com/send?phone=353877622193&text=Hello+Hannah,+ I want more info about private yoga classes&app_absent=0"><button className='mt-5 ml-1 px-2 py-1 md:px-3 md:py-2 bg-transparent rounded   hover:underline font-light text-accent transition duration-300 max-md:tracking-tight'>Get more info</button></Link>
                 </div>
                 <div className='bg-[#f5f0ec] gap-5 p-7 rounded-lg  cursor-pointer transition duration-500 shadow hover:bg-[#ede3dd]'>
                     <div>
@@ -92,8 +92,8 @@ function Page() {
                         <p className='max-w-[500px] mb-5 font-extralight '>With a variety of styles and levels, each class is designed to inspire and empower practitioners of all backgrounds. Whether you&apos;re a beginner or an experienced yogi, you&apos;ll find a class that meets your needs.</p>
                     </div>
                     <Image src={photo5} alt='yoga-pic' className='object-cover w-full h-full max-w-[500px] max-h-[315px] max-md:h-[275px] rounded'/>
-                        <button className='mt-5 px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book Group Class</button>
-                        <button className='mt-5 ml-1 px-2 py-1 md:px-3 md:py-2 bg-transparent rounded   hover:underline font-light text-accent transition duration-300 max-md:tracking-tight'>Get more info</button>
+                        <Link target="_blank" href="https://api.whatsapp.com/send?phone=353877622193&text=Hello+Hannah,+ I want to book a group yoga session&app_absent=0"><button className='mt-5 px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book Group Class</button></Link>
+                        <Link target="_blank" href="https://api.whatsapp.com/send?phone=353877622193&text=Hello+Hannah,+ I want more info about private yoga classes&app_absent=0"><button className='mt-5 ml-1 px-2 py-1 md:px-3 md:py-2 bg-transparent rounded   hover:underline font-light text-accent transition duration-300 max-md:tracking-tight'>Get more info</button></Link>
                 </div>
             </div>
         </section>
@@ -105,28 +105,28 @@ function Page() {
                             <h1 className='font-bold text-2xl mb-10 text-accent'>Hatha Yoga</h1>
                             <p className='max-w-[550px] mb-5 font-extralight'>Hatha yoga classes typically include a combination of asanas (physical  postures) and pranayama (breathwork), with an emphasis on relaxation and  stress reduction. The practice aims to create a sense of harmony and  unity within the body, mind, and spirit.</p>
                         </div>  
-                        <button className='mt-5 px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book Hatha Session</button>
+                        <Link target="_blank" href="https://api.whatsapp.com/send?phone=353877622193&text=Hello+Hannah,+ I want to book a Hatha yoga class&app_absent=0"><button className='mt-5 px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book Hatha Session</button></Link>
                     </div>
                     <div className='bg-[#f5f0ec] gap-5 p-7 rounded-md  cursor-pointer transition duration-500 shadow  max-md:hover:border  max-md:hover:shadow-xl md:hover:scale-[1.03]'>
                         <div>
                             <h1 className='font-bold text-2xl mb-10 text-accent'>Vinyasa Yoga</h1>
                             <p className='max-w-[550px] mb-5 font-extralight'>A dynamic style of yoga that synchronizes movement with  breath. In Vinyasa practice, poses flow seamlessly from one to another,  creating a continuous, fluid sequence. Each movement is coordinated, resulting in a rhythmic and meditative  practice.</p>
                         </div>
-                        <button className='mt-5 px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book Vinyasa Session</button>
+                        <Link target="_blank" href="https://api.whatsapp.com/send?phone=353877622193&text=Hello+Hannah,+ I want to book a Vinyasa yoga class&app_absent=0"><button className='mt-5 px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book Vinyasa Session</button></Link>
                     </div>
                     <div className='bg-[#f5f0ec] gap-5 p-7 rounded-md cursor-pointer transition duration-500 shadow  max-md:hover:border  max-md:hover:shadow-xl md:hover:scale-[1.03]'>
                         <div>
                             <h1 className='font-bold text-2xl mb-10 text-accent'>Restorative Yoga</h1>
                             <p className='max-w-[550px] mb-5 font-extralight'>Restorative yoga is a gentle and nurturing style focused on relaxation  and deep rest. In a restorative yoga practice, props like bolsters,  blankets, and blocks are used to support the body in passive poses held  for extended periods, often up to 20 minutes or more. </p>
                         </div>
-                        <button className='mt-5 px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book restorative session</button>
+                        <Link target="_blank" href="https://api.whatsapp.com/send?phone=353877622193&text=Hello+Hannah,+ I want to book a Restorative Yoga Class&app_absent=0"><button className='mt-5 px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book restorative session</button></Link>
                     </div>
                     <div className='bg-[#f5f0ec] gap-5 p-7 rounded-md  cursor-pointer transition duration-500 shadow  max-md:hover:border  max-md:hover:shadow-xl md:hover:scale-[1.03]'>
                         <div>
                             <h1 className='font-bold text-2xl mb-10 text-accent'>Ying Yoga</h1>
                             <p className='max-w-[550px] mb-5 font-extralight'>In Yin practice, poses are held for longer durations, typically ranging  from one to five minutes or more, allowing for a gentle, sustained  stretch. Yin focuses on relaxation  and surrendering into each posture, encouraging practitioners to cultivate mindfulness.</p>
                         </div>
-                        <button className='mt-5 px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book Ying Session</button>
+                        <Link target="_blank" href="https://api.whatsapp.com/send?phone=353877622193&text=Hello+Hannah,+ I want to book a Ying Yoga class&app_absent=0"><button className='mt-5 px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book Ying Session</button></Link>
                     </div>
                 </div>
                 <div className=' mt-[150px] mb-5 md:mb-20 bg-white/80  py-5 px-5 md:p-10 rounded max-w-[1240px]'>
@@ -142,7 +142,7 @@ function Page() {
                 <li className='px-5 py-7  bg-white  text-[#623810]/85 border border-[#623810]/20 font-medium text-center rounded-full max-md:min-w-[272px]'><p>Spiritual Connection</p></li>
             </ul> */}
             <div className='flex flex-col gap-5 justify-center items-center md:mt-[70px] mb-[70px] md:mb-[200px]'>
-                <button className='px-7 py-5  bg-accent hover:bg-[#623810]/95 hover:text-white/90 rounded text-white  font-medium min-w-[300px] transition duration-300'>Talk with Hannah</button>
+            <Link target="_blank" href="https://api.whatsapp.com/send?phone=353877622193&text=Hello+Hannah,+ I would like to talk with you about your yoga servicess&app_absent=0"><button className='px-7 py-5  bg-accent hover:bg-[#623810]/95 hover:text-white/90 rounded text-white  font-medium min-w-[300px] transition duration-300'>Talk with Hannah</button></Link>
                 {/* <button className='px-7 py-5 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium min-w-[300px] transition duration-300'>Talk with Hannah</button> */}
             </div>
       

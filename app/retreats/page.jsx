@@ -63,21 +63,21 @@ function page() {
                             <h1 className='font-bold text-2xl mb-2 text-[#623810]/85'>Basic</h1>
                             <p className='max-w-[550px] mb-5 font-extralight'>Retreat, All Meals & <span className='font-normal'>No Accomodation</span></p>
                         </div>
-                        <button className='mt-5 px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight md:hover:scale-[1.03]'>Book for €550</button>
+                        <Link target="_blank" href="https://api.whatsapp.com/send?phone=353877622193&text=Hello+Hannah,+ I would like to book the BASIC option for your retreteat in October&app_absent=0"><button className='mt-5 px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight md:hover:scale-[1.03]'>Book for €550</button></Link>
                     </div>
                     <div className='bg-[#f5f0ec] gap-5 p-7 rounded-lg w-full max-w-[400px]'>
                         <div>
                             <h1 className='font-bold text-2xl mb-2 text-[#623810]/85'>Practical</h1>
                             <p className='max-w-[550px] mb-5 font-extralight'>Retreat, All Meals & <span className='font-normal'>Shared Accomodation</span></p>
                         </div>
-                        <button className='md:hover:scale-[1.03] mt-5 px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book for €850</button>
+                        <Link target="_blank" href="https://api.whatsapp.com/send?phone=353877622193&text=Hello+Hannah,+ I would like to book the PRACTICAL option for your retreteat in October&app_absent=0"><button className='md:hover:scale-[1.03] mt-5 px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book for €850</button></Link>
                     </div>
                     <div className='bg-[#f5f0ec] gap-5 p-7 rounded-lg flex-col items-center w-full max-w-[400px]'>
                         <div>
                             <h1 className='font-bold text-2xl mb-2 text-[#623810]/85'>Full</h1>
                             <p className='max-w-[550px] mb-5 font-extralight'>Retreat, All Meals & <span className='font-normal'>Private Accomodation</span></p>
                         </div>  
-                        <button className='md:hover:scale-[1.03] mt-5 px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book for €950</button>
+                        <Link target="_blank" href="https://api.whatsapp.com/send?phone=353877622193&text=Hello+Hannah,+ I would like to book the FULL option for your retreteat in October&app_absent=0"><button className='md:hover:scale-[1.03] mt-5 px-2 py-1 md:px-3 md:py-2 bg-white rounded text-[#623810]/85 border border-[#623810]/20 hover:border-[#623810]/50 font-medium transition duration-300 max-md:tracking-tight'>Book for €950</button></Link>
                     </div>
                     
                 </div>
@@ -205,7 +205,7 @@ function page() {
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <p className='max-md:px-5 mt-20 text-center font-light text-xl  md:text-[30px] leading-relaxed tracking-tight'>We look forward to welcoming you on your journey to inner peace, where every moment promises to rejuvenate your body, mind, and spirit.<br></br> <span className='font-bold text-accent'>Join us</span> <span className='font-bold text-accent'>in County Mayo, Ireland </span><span className='font-bold text-accent'>for an unforgettable retreat experience</span> filled with tranquility, connection, and self-discovery.</p>
-            <button className='mb-20 mt-20 md:mb-40 px-7 py-5 bg-accent hover:bg-[#623810]/95 hover:text-white/90 rounded text-white  font-medium min-w-[300px] transition duration-300'>Join The Retreat</button>
+            <Link target="_blank" href="https://api.whatsapp.com/send?phone=353877622193&text=Hello+Hannah,+ I would like to join the retreat UNWIND, RECONNECT & FIND INNER PEACE on october 2024&app_absent=0"><button className='mb-20 mt-20 md:mb-40 px-7 py-5 bg-accent hover:bg-[#623810]/95 hover:text-white/90 rounded text-white  font-medium min-w-[300px] transition duration-300'>Join The Retreat</button></Link>
         </section>
 
 
